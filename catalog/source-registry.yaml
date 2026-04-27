@@ -3,22 +3,131 @@ sources:
     name: Clay Mathematics Institute - Millennium Prize Problems
     url: https://www.claymath.org/millennium-problems/
     type: official-problem-source
+    import_tier: tier-1-official
     import_mode: manual-curated
-    canonical_use: problem names, official summaries, official problem pages
+    expected_scale: small
+    allowed_fields: [id, title, area, status, summary, primary_sources, prize, workspace_status, curation_status]
+    canonical_use: problem names, official problem pages, prize metadata
+    caution: Keep summaries original and short. Do not copy full official problem descriptions.
 
   - id: topp
     name: TOPP - The Open Problems Project
     url: https://topp.openproblem.net/
     source_repo: https://github.com/edemaine/topp
     type: open-problem-list
+    import_tier: tier-1-structured
     import_mode: curated-adapter-later
+    expected_scale: 75-plus
+    allowed_fields: [id, title, area, status, source_url, tags, workspace_status, curation_status]
     canonical_use: candidate computational geometry workspaces after license and source review
+    caution: Prefer metadata and links. Check repository license before copying problem text.
+
+  - id: erdos-problems
+    name: Erdos Problems
+    url: https://www.erdosproblems.com/all/open
+    type: open-problem-database
+    import_tier: tier-1-structured
+    import_mode: metadata-scraper-later
+    expected_scale: hundreds
+    allowed_fields: [id, title, area, status, source_url, tags, introduced, primary_sources, workspace_status, curation_status]
+    canonical_use: candidate combinatorics, graph theory, geometry, and number theory workspaces after source review
+    caution: Open status reflects the source database state and should be rechecked before curation.
+
+  - id: open-problem-garden
+    name: Open Problem Garden
+    url: https://www.openproblemgarden.org/
+    type: open-problem-wiki
+    import_tier: tier-1-broad-discovery
+    import_mode: metadata-scraper-later
+    expected_scale: hundreds
+    allowed_fields: [id, title, area, status, source_url, tags, workspace_status, curation_status]
+    canonical_use: broad candidate problem discovery after license and source review
+    caution: Treat as discovery until each problem is traced to a primary, survey, or maintained source.
+
+  - id: aim-problem-lists
+    name: American Institute of Mathematics - Problem Lists
+    url: https://aimath.org/problemlists/
+    type: list-of-problem-lists
+    import_tier: tier-1-list-index
+    import_mode: list-metadata-scraper-later
+    expected_scale: many-lists
+    allowed_fields: [id, title, area, source_url, source_kind, workspace_status, curation_status]
+    canonical_use: candidate list discovery and source routing
+    caution: Many targets are PDFs or external AimPL pages. Do not ingest PDF text by default.
 
   - id: wikipedia-unsolved-math
     name: Wikipedia - List of unsolved problems in mathematics
     url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics
     type: discovery-index
+    import_tier: tier-2-discovery
     import_mode: discovery-only
+    expected_scale: hundreds
+    allowed_fields: [id, title, area, source_url, workspace_status, curation_status]
     canonical_use: none
     caution: Trace every candidate to primary or survey sources before creating a canonical workspace.
 
+  - id: wikipedia-unsolved-cs
+    name: Wikipedia - List of unsolved problems in computer science
+    url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science
+    type: discovery-index
+    import_tier: tier-2-discovery
+    import_mode: discovery-only
+    expected_scale: dozens
+    allowed_fields: [id, title, area, source_url, workspace_status, curation_status]
+    canonical_use: none
+    caution: Use only to discover candidates and references.
+
+  - id: mathworld-unsolved
+    name: Wolfram MathWorld - Unsolved Problems
+    url: https://mathworld.wolfram.com/UnsolvedProblems.html
+    type: encyclopedia-index
+    import_tier: tier-2-discovery
+    import_mode: discovery-only
+    expected_scale: unknown
+    allowed_fields: [id, title, area, source_url, workspace_status, curation_status]
+    canonical_use: none
+    caution: Respect Wolfram terms. Do not copy article text.
+
+  - id: oeis-open-problems
+    name: OEIS Wiki - Open problems and conjectures
+    url: https://oeis.org/wiki/Open_problems
+    type: discovery-index
+    import_tier: tier-2-discovery
+    import_mode: discovery-only
+    expected_scale: unknown
+    allowed_fields: [id, title, area, source_url, related_sequences, workspace_status, curation_status]
+    canonical_use: sequence-linked candidate discovery
+    caution: OEIS has specific license and terms. Use links and sequence IDs unless license review allows more.
+
+  - id: west-graph-theory-combinatorics
+    name: Douglas B. West - Open Problems in Graph Theory and Combinatorics
+    url: https://dwest.web.illinois.edu/openp/
+    type: legacy-open-problem-list
+    import_tier: tier-2-discovery
+    import_mode: discovery-only
+    expected_scale: dozens
+    allowed_fields: [id, title, area, source_url, tags, workspace_status, curation_status]
+    canonical_use: graph theory and combinatorics candidate discovery
+    caution: The source says it is long neglected. Recheck status elsewhere before importing candidates.
+
+  - id: openproblems-math-physics
+    name: Open Problems in Mathematics and Physics
+    url: https://www.openproblems.net/
+    type: legacy-open-problem-list
+    import_tier: tier-3-link-only
+    import_mode: link-only
+    expected_scale: unknown
+    allowed_fields: [id, title, area, source_url, workspace_status, curation_status]
+    canonical_use: none
+    caution: The site states all rights reserved. Use only links and independently written metadata.
+
+  - id: arxiv-open-problem-papers
+    name: arXiv open-problem papers and surveys
+    url: https://arxiv.org/
+    type: paper-index
+    import_tier: tier-2-manual-curation
+    import_mode: manual-curated
+    expected_scale: unbounded
+    allowed_fields: [id, title, area, source_url, primary_sources, workspace_status, curation_status]
+    canonical_use: curated problem candidates from papers with explicit open-problem sections
+    caution: Do not bulk-import paper text. Extract only bibliographic metadata and source links unless license review allows more.
