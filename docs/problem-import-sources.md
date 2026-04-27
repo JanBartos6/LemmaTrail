@@ -23,11 +23,12 @@ TOPP is especially relevant because it already accepts updates through GitHub pu
 
 ### Erdos Problems
 
-- URL: https://www.erdosproblems.com/all/open
+- URL: https://www.erdosproblems.com/
 - Role: large source of open problems associated with Paul Erdos
-- Import mode: metadata adapter later
+- Import mode: metadata adapter
 
-This is likely one of the most useful benchmark-style sources, but open status must be rechecked during curation.
+This is likely one of the most useful benchmark-style sources. Use the Apache-2.0
+GitHub source repository for imports, and recheck open status during curation.
 
 ### Open Problem Garden
 

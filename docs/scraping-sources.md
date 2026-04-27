@@ -71,13 +71,34 @@ curation_status: seed-only
 ## First Implementation Order
 
 1. Clay manual seed
-2. TOPP metadata adapter
-3. Erdos Problems metadata adapter
+2. Erdos Problems metadata adapter
+3. TOPP metadata adapter
 4. Open Problem Garden metadata adapter
 5. AIM list index adapter
 6. Wikipedia discovery adapter
 
 This order gives a mix of famous problems, structured specialist problems, and broad discovery without making the repository heavy.
+
+## Existing Adapters
+
+### Erdos Problems
+
+Script: `tools/import_erdos_problems.py`
+
+Source: `https://github.com/teorth/erdosproblems`
+
+Output: `catalog/imports/erdos-problems/problems.yaml`
+
+The adapter imports unresolved source records by default. It uses the Apache-2.0
+licensed GitHub source repository instead of crawling `erdosproblems.com`
+directly.
+
+Resume behavior:
+
+- source clone: `.cache/sources/erdosproblems/`
+- checkpoints: `.cache/imports/erdos-problems/<scope>/records.jsonl`
+- state: `.cache/imports/erdos-problems/<scope>/state.json`
+- final output is written only after all selected records are transformed
 
 ## Source Review Checklist
 
@@ -89,4 +110,3 @@ Before adding an adapter:
 - [ ] Decide which fields are allowed.
 - [ ] Confirm that the adapter produces metadata only.
 - [ ] Add the source to `catalog/source-registry.yaml`.
-

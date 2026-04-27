@@ -24,14 +24,15 @@ sources:
 
   - id: erdos-problems
     name: Erdos Problems
-    url: https://www.erdosproblems.com/all/open
+    url: https://www.erdosproblems.com/
+    source_repo: https://github.com/teorth/erdosproblems
     type: open-problem-database
     import_tier: tier-1-structured
-    import_mode: metadata-scraper-later
+    import_mode: metadata-adapter
     expected_scale: hundreds
-    allowed_fields: [id, title, area, status, source_url, tags, introduced, primary_sources, workspace_status, curation_status]
+    allowed_fields: [id, title, area, status, source_ids, primary_sources, introduced, prize, tags, external_ids, formalization, workspace_status, curation_status, import_metadata]
     canonical_use: candidate combinatorics, graph theory, geometry, and number theory workspaces after source review
-    caution: Open status reflects the source database state and should be rechecked before curation.
+    caution: Use the Apache-2.0 GitHub source repository for metadata import. Open status reflects the source database state and should be rechecked before curation.
 
   - id: open-problem-garden
     name: Open Problem Garden
