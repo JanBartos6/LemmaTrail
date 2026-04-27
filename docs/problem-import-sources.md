@@ -17,7 +17,7 @@ See [scraping-sources.md](scraping-sources.md) for the current source tiers and 
 - URL: https://topp.openproblem.net/
 - Source repository: https://github.com/edemaine/topp
 - Role: open problem list in discrete and computational geometry
-- Import mode: curated adapter later
+- Import mode: metadata adapter
 
 TOPP is especially relevant because it already accepts updates through GitHub pull requests.
 
@@ -42,7 +42,7 @@ Treat as discovery until individual problems are traced to stronger sources.
 
 - URL: https://aimath.org/problemlists/
 - Role: index of problem lists across many mathematical areas
-- Import mode: list metadata adapter later
+- Import mode: list metadata adapter
 
 Many entries point to PDFs or external pages, so the first adapter should collect list metadata and links only.
 

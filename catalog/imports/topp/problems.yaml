@@ -1,0 +1,2390 @@
+import:
+  source_id: topp
+  source_name: TOPP - The Open Problems Project
+  source_repository: https://github.com/edemaine/topp
+  source_commit: 4165b414ddfaf728d82b677a7baa27b3bffd6bb1
+  source_sha256: bd01733038869f7e9c5fee9f08da6ed968155547e1ae6849e51f49781e6b7d11
+  source_license: mixed-or-unclear-for-problem-text
+  scope: unresolved
+  imported_at: '2026-04-27T23:33:28+00:00'
+  total_source_records: 78
+  selected_records: 62
+  source_status_counts:
+    open: 56
+    partially-resolved: 2
+    solved: 16
+    unknown: 4
+  selected_status_counts:
+    open: 56
+    partially-resolved: 2
+    unknown: 4
+  notes:
+  - Metadata-only import.
+  - Problem statements and status prose are not copied into this catalog.
+  - Status is inferred from short source status fields and must be rechecked.
+  - Use primary_sources URLs for full source context.
+problems:
+- id: topp-problem-3
+  title: Voronoi Diagram of Lines in 3D
+  area: voronoi-diagrams
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 3
+    url: https://topp.openproblem.net/P3.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000003
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000003
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - Voronoi diagrams
+  external_ids:
+    topp_number: '3'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000003
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-4
+  title: Union of Fat Objects in 3D
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 4
+    url: https://topp.openproblem.net/P4.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000004
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000004
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '4'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000004
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-5
+  title: Euclidean Minimum Spanning Tree
+  area: minimum-spanning-tree
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 5
+    url: https://topp.openproblem.net/P5.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000005
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000005
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - minimum spanning tree
+  - shortest paths
+  external_ids:
+    topp_number: '5'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000005
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-6
+  title: Minimum Euclidean Matching in 2D
+  area: shortest-paths
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 6
+    url: https://topp.openproblem.net/P6.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000006
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000006
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - shortest paths
+  external_ids:
+    topp_number: '6'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000006
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-7
+  title: $k$-sets
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 7
+    url: https://topp.openproblem.net/P7.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000007
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000007
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  - point sets
+  external_ids:
+    topp_number: '7'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000007
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-8
+  title: 'Linear Programming: Strongly Polynomial?'
+  area: linear-programming
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 8
+    url: https://topp.openproblem.net/P8.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000008
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000008
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - linear programming
+  external_ids:
+    topp_number: '8'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000008
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-9
+  title: Edge-Unfolding Convex Polyhedra
+  area: folding-and-unfolding
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 9
+    url: https://topp.openproblem.net/P9.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000009
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000009
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - folding and unfolding
+  - polyhedra
+  external_ids:
+    topp_number: '9'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000009
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-10
+  title: Simple Linear-Time Polygon Triangulation
+  area: triangulations
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 10
+    url: https://topp.openproblem.net/P10.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000010
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000010
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - triangulations
+  external_ids:
+    topp_number: '10'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000010
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-11
+  title: 3SUM Hard Problems
+  area: lower-bounds
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 11
+    url: https://topp.openproblem.net/P11.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000011
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000011
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - lower bounds
+  external_ids:
+    topp_number: '11'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000011
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-12
+  title: Dynamic Planar Convex Hull
+  area: convex-hulls
+  status: partially-resolved
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 12
+    url: https://topp.openproblem.net/P12.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000012
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000012
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - convex hulls
+  - data structures
+  external_ids:
+    topp_number: '12'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000012
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-13
+  title: Point Location in 3D Subdivision
+  area: data-structures
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 13
+    url: https://topp.openproblem.net/P13.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000013
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000013
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - data structures
+  external_ids:
+    topp_number: '13'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000013
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-15
+  title: Output-sensitive Convex Hull in $\R^d$
+  area: convex-hulls
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 15
+    url: https://topp.openproblem.net/P15.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000015
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000015
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - convex hulls
+  external_ids:
+    topp_number: '15'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000015
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-16
+  title: Simple Polygonalizations
+  area: polygons
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 16
+    url: https://topp.openproblem.net/P16.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000016
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000016
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polygons
+  - point sets
+  external_ids:
+    topp_number: '16'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000016
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-17
+  title: Visibility Graph Recognition
+  area: visibility
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 17
+    url: https://topp.openproblem.net/P17.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000017
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000017
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - visibility
+  external_ids:
+    topp_number: '17'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000017
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-19
+  title: Vertical Decompositions in $\R^d$
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 19
+    url: https://topp.openproblem.net/P19.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000019
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000019
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '19'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000019
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-22
+  title: Minimum-Link Path in 2D
+  area: shortest-paths
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 22
+    url: https://topp.openproblem.net/P22.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000022
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000022
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - shortest paths
+  external_ids:
+    topp_number: '22'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000022
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-23
+  title: Vertex $\pi$-Floodlights
+  area: art-galleries
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 23
+    url: https://topp.openproblem.net/P23.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000023
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000023
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - art galleries
+  - visibility
+  external_ids:
+    topp_number: '23'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000023
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-24
+  title: Polygonal Curve Simplification
+  area: simplification
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 24
+    url: https://topp.openproblem.net/P24.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000024
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000024
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - simplification
+  external_ids:
+    topp_number: '24'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000024
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-25
+  title: Polyhedral Surface Approximation
+  area: simplification
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 25
+    url: https://topp.openproblem.net/P25.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000025
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000025
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - simplification
+  external_ids:
+    topp_number: '25'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000025
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-26
+  title: Surface Reconstruction
+  area: reconstruction
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 26
+    url: https://topp.openproblem.net/P26.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000026
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000026
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - reconstruction
+  - point sets
+  external_ids:
+    topp_number: '26'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000026
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-27
+  title: Hexahedral Meshing
+  area: meshing
+  status: partially-resolved
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 27
+    url: https://topp.openproblem.net/P27.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000027
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000027
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - meshing
+  external_ids:
+    topp_number: '27'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000027
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-28
+  title: Flip Graph Connectivity in 3D
+  area: triangulations
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 28
+    url: https://topp.openproblem.net/P28.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000028
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000028
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - triangulations
+  - Delaunay triangulations
+  external_ids:
+    topp_number: '28'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000028
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-29
+  title: Hamiltonian Tetrahedralizations
+  area: triangulations
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 29
+    url: https://topp.openproblem.net/P29.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000029
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000029
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - triangulations
+  - polyhedra
+  external_ids:
+    topp_number: '29'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000029
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-30
+  title: Thrackles
+  area: graphs
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 30
+    url: https://topp.openproblem.net/P30.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000030
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000030
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: true
+  tags:
+  - graphs
+  - combinatorial geometry
+  - graph drawing
+  - geometric graphs
+  external_ids:
+    topp_number: '30'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000030
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Reward
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-31
+  title: Trapping Light Rays with Segment Mirrors
+  area: visibility
+  status: unknown
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 31
+    url: https://topp.openproblem.net/P31.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000031
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000031
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - visibility
+  external_ids:
+    topp_number: '31'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000031
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-33
+  title: Sum of Square Roots
+  area: numerical-computations
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 33
+    url: https://topp.openproblem.net/P33.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000033
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000033
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - numerical computations
+  external_ids:
+    topp_number: '33'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000033
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-34
+  title: Extending Pseudosegment Arrangements by Subdivision
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 34
+    url: https://topp.openproblem.net/P34.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000034
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000034
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '34'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000034
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-35
+  title: 'Freeze-Tag: Optimal Strategies for Awakening a Swarm of Robots'
+  area: optimization
+  status: unknown
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 35
+    url: https://topp.openproblem.net/P35.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000035
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000035
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - optimization
+  - scheduling
+  - robotics
+  external_ids:
+    topp_number: '35'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000035
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-37
+  title: Counting Polyominoes
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 37
+    url: https://topp.openproblem.net/P37.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000037
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000037
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '37'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000037
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-38
+  title: Compatible Triangulations
+  area: triangulations
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 38
+    url: https://topp.openproblem.net/P38.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000038
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000038
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - triangulations
+  external_ids:
+    topp_number: '38'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000038
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-39
+  title: Distances among Point Sets in $\R^2$ and $\R^3$
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 39
+    url: https://topp.openproblem.net/P39.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000039
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000039
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: true
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '39'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000039
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Reward
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-40
+  title: The Number of Pointed Pseudotriangulations
+  area: triangulations
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 40
+    url: https://topp.openproblem.net/P40.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000040
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000040
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - triangulations
+  - combinatorial geometry
+  external_ids:
+    topp_number: '40'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000040
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-41
+  title: Sorting $X+Y$ (Pairwise Sums)
+  area: lower-bounds
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 41
+    url: https://topp.openproblem.net/P41.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000041
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000041
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - lower bounds
+  external_ids:
+    topp_number: '41'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000041
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Related Open Problems
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-42
+  title: Vertex-Unfolding Polyhedra
+  area: folding-and-unfolding
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 42
+    url: https://topp.openproblem.net/P42.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000042
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000042
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - folding and unfolding
+  - polyhedra
+  external_ids:
+    topp_number: '42'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000042
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-43
+  title: General Unfoldings of Nonconvex Polyhedra
+  area: folding-and-unfolding
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 43
+    url: https://topp.openproblem.net/P43.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000043
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000043
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - folding and unfolding
+  - polyhedra
+  external_ids:
+    topp_number: '43'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000043
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-44
+  title: 3-Colorability of Arrangements of Great Circles
+  area: arrangements
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 44
+    url: https://topp.openproblem.net/P44.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000044
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000044
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - arrangements
+  - coloring
+  - polyhedra
+  external_ids:
+    topp_number: '44'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000044
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-45
+  title: Smallest Universal Set of Points for Planar Graphs
+  area: graphs
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 45
+    url: https://topp.openproblem.net/P45.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000045
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000045
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - graphs
+  - point sets
+  - graph drawing
+  external_ids:
+    topp_number: '45'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000045
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-46
+  title: 3D Minimum-Bend Orthogonal Graph Drawings
+  area: graph-drawing
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 46
+    url: https://topp.openproblem.net/P46.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000046
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000046
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - graph drawing
+  external_ids:
+    topp_number: '46'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000046
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-49
+  title: Planar Euclidean Maximum TSP
+  area: traveling-salesman
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 49
+    url: https://topp.openproblem.net/P49.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000049
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000049
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - traveling salesman
+  - optimization
+  - point sets
+  external_ids:
+    topp_number: '49'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000049
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-51
+  title: Linear-Volume 3D Grid Drawings of Planar Graphs
+  area: graph-drawing
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 51
+    url: https://topp.openproblem.net/P51.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000051
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000051
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - graph drawing
+  external_ids:
+    topp_number: '51'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000051
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-52
+  title: Queue-Number of Planar Graphs
+  area: graph-drawing
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 52
+    url: https://topp.openproblem.net/P52.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000052
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000052
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - graph drawing
+  external_ids:
+    topp_number: '52'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000052
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-54
+  title: Traveling Salesman Problem in Solid Grid Graphs
+  area: traveling-salesman
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 54
+    url: https://topp.openproblem.net/P54.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000054
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000054
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - traveling salesman
+  - optimization
+  - point sets
+  - graphs
+  external_ids:
+    topp_number: '54'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000054
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-55
+  title: Pallet Loading
+  area: packing
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 55
+    url: https://topp.openproblem.net/P55.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000055
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000055
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - packing
+  - optimization
+  external_ids:
+    topp_number: '55'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000055
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-57
+  title: Chromatic Number of the Plane
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 57
+    url: https://topp.openproblem.net/P57.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000057
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000057
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: true
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '57'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000057
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Related Open Problems
+    - Reward
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-58
+  title: Monochromatic Triangles
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 58
+    url: https://topp.openproblem.net/P58.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000058
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000058
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: true
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '58'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000058
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Related Open Problems
+    - Reward
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-59
+  title: Most Circular Partition of a Square
+  area: packing
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 59
+    url: https://topp.openproblem.net/P59.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000059
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000059
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - packing
+  - meshing
+  external_ids:
+    topp_number: '59'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000059
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-60
+  title: Transforming Polygons via Vertex-Centroid Moves
+  area: polygons
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 60
+    url: https://topp.openproblem.net/P60.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000060
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000060
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polygons
+  external_ids:
+    topp_number: '60'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000060
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-61
+  title: Lines Tangent to Four Unit Balls
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 61
+    url: https://topp.openproblem.net/P61.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000061
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000061
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '61'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000061
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-62
+  title: Volume Maximizing Convex Shape
+  area: folding-and-unfolding
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 62
+    url: https://topp.openproblem.net/P62.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000062
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000062
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - folding and unfolding
+  external_ids:
+    topp_number: '62'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000062
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-63
+  title: Dynamic Planar Nearest Neighbors
+  area: convex-hulls
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 63
+    url: https://topp.openproblem.net/P63.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000063
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000063
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - convex hulls
+  - data structures
+  - Voronoi diagrams
+  external_ids:
+    topp_number: '63'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000063
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Related Open Problems
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-64
+  title: Edge-Unfolding Polycubes
+  area: folding-and-unfolding
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 64
+    url: https://topp.openproblem.net/P64.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000064
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000064
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - folding and unfolding
+  - polyhedra
+  external_ids:
+    topp_number: '64'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000064
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-66
+  title: Reflexivity of Point Sets
+  area: polygons
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 66
+    url: https://topp.openproblem.net/P66.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000066
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000066
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polygons
+  - point sets
+  external_ids:
+    topp_number: '66'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000066
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-67
+  title: Fair Partitioning of Convex Polygons
+  area: polygons
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 67
+    url: https://topp.openproblem.net/P67.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000067
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000067
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polygons
+  - partitioning
+  external_ids:
+    topp_number: '67'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000067
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-68
+  title: Rolling a Die over a Labeled Board
+  area: combinatorial-geometry
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 68
+    url: https://topp.openproblem.net/P68.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000068
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000068
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '68'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000068
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Motivation
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-70
+  title: Yao-Yao Graph a Spanner?
+  area: spanners
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 70
+    url: https://topp.openproblem.net/P70.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000070
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000070
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - spanners
+  - geometric graphs
+  external_ids:
+    topp_number: '70'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000070
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-72
+  title: Polyhedron with Regular Pentagon Faces
+  area: polyhedra
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 72
+    url: https://topp.openproblem.net/P72.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000072
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000072
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polyhedra
+  external_ids:
+    topp_number: '72'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000072
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-73
+  title: Congruent Partitions of Polygons
+  area: polygons
+  status: unknown
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 73
+    url: https://topp.openproblem.net/P73.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000073
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000073
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polygons
+  - partitioning
+  - dissections
+  external_ids:
+    topp_number: '73'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000073
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-74
+  title: Slicing Axes-Parallel Rectangles
+  area: combinatorial-geometry
+  status: unknown
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 74
+    url: https://topp.openproblem.net/P74.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000074
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000074
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - combinatorial geometry
+  external_ids:
+    topp_number: '74'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000074
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-75
+  title: Edge-Coloring Geometric Graphs
+  area: geometric-graphs
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 75
+    url: https://topp.openproblem.net/P75.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000075
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000075
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - geometric graphs
+  external_ids:
+    topp_number: '75'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000075
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-76
+  title: Equiprojective Polyhedra
+  area: polyhedra
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 76
+    url: https://topp.openproblem.net/P76.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000076
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000076
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polyhedra
+  external_ids:
+    topp_number: '76'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000076
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Appearances
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-77
+  title: Zipper Unfoldings of Convex Polyhedra
+  area: polyhedra
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 77
+    url: https://topp.openproblem.net/P77.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000077
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000077
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - polyhedra
+  external_ids:
+    topp_number: '77'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000077
+    source_fields:
+    - Statement
+    - Origin
+    - Status/Conjectures
+    - Partial and Related Results
+    - Related Open Problems
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status/Conjectures
+    status_inference: keyword-only; verify against source before curation
+- id: topp-problem-78
+  title: Rectangling a Rectangle
+  area: packing
+  status: open
+  source_ids:
+  - topp
+  primary_sources:
+  - title: TOPP Problem 78
+    url: https://topp.openproblem.net/P78.html
+    type: database-record
+  - title: edemaine/topp Problems/P.000078
+    url: https://github.com/edemaine/topp/blob/main/Problems/P.000078
+    type: source-repository
+  introduced:
+    year: unknown
+    by: []
+  prize:
+    exists: false
+  tags:
+  - packing
+  - partitioning
+  external_ids:
+    topp_number: '78'
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_file: Problems/P.000078
+    source_fields:
+    - Statement
+    - Origin
+    - Status
+    - Conjecture
+    - Further questions
+    - Categories
+    - Entry Revision History
+    status_source_fields:
+    - Status
+    status_inference: keyword-only; verify against source before curation

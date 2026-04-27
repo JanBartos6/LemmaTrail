@@ -16,11 +16,11 @@ sources:
     source_repo: https://github.com/edemaine/topp
     type: open-problem-list
     import_tier: tier-1-structured
-    import_mode: curated-adapter-later
+    import_mode: metadata-adapter
     expected_scale: 75-plus
-    allowed_fields: [id, title, area, status, source_url, tags, workspace_status, curation_status]
+    allowed_fields: [id, title, area, status, source_ids, primary_sources, introduced, prize, tags, external_ids, workspace_status, curation_status, import_metadata]
     canonical_use: candidate computational geometry workspaces after license and source review
-    caution: Prefer metadata and links. Check repository license before copying problem text.
+    caution: Metadata import only. Do not copy problem statements or status prose; TOPP source status is narrative and must be rechecked during curation.
 
   - id: erdos-problems
     name: Erdos Problems
@@ -43,16 +43,16 @@ sources:
     expected_scale: hundreds
     allowed_fields: [id, title, area, status, source_url, tags, workspace_status, curation_status]
     canonical_use: broad candidate problem discovery after license and source review
-    caution: Treat as discovery until each problem is traced to a primary, survey, or maintained source.
+    caution: Treat as discovery until each problem is traced to a primary, survey, or maintained source. The live index needs spam filtering before import.
 
   - id: aim-problem-lists
     name: American Institute of Mathematics - Problem Lists
     url: https://aimath.org/problemlists/
     type: list-of-problem-lists
     import_tier: tier-1-list-index
-    import_mode: list-metadata-scraper-later
+    import_mode: list-metadata-adapter
     expected_scale: many-lists
-    allowed_fields: [id, title, area, source_url, source_kind, workspace_status, curation_status]
+    allowed_fields: [id, title, area, status, source_ids, primary_sources, source_kind, workspace_status, curation_status, import_metadata]
     canonical_use: candidate list discovery and source routing
     caution: Many targets are PDFs or external AimPL pages. Do not ingest PDF text by default.
 

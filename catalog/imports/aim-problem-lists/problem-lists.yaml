@@ -1,0 +1,2838 @@
+import:
+  source_id: aim-problem-lists
+  source_name: American Institute of Mathematics - Problem Lists
+  source_url: https://aimath.org/problemlists/
+  source_sha256: 702a17acee0d87446c065afd91fe39268468c28f200abf2dc505c27994300303
+  source_license: unknown
+  imported_at: '2026-04-27T23:33:31+00:00'
+  total_source_links: 164
+  selected_records: 164
+  source_kind_counts:
+    aim-page: 1
+    aimpl: 82
+    external-problem-list: 1
+    pdf: 78
+    source-document: 1
+    source-repository: 1
+  area_counts:
+    algebraic-geometry: 15
+    algebraic-number-theory: 5
+    analysis: 9
+    analytic-number-theory: 7
+    arithmetic-geometry: 6
+    biology: 4
+    combinatorics: 11
+    computation: 6
+    convex-geometry: 4
+    cryptography: 2
+    dynamical-systems: 5
+    functional-analysis: 2
+    geometric-group-theory: 7
+    geometry: 16
+    infrastructure: 6
+    linear-algebra: 3
+    logic: 9
+    optimization: 1
+    other: 3
+    pdes: 7
+    physics: 7
+    probability: 7
+    representation-theory: 7
+    several-complex-variables: 3
+    special-functions: 1
+    topology: 11
+  robots_allowed: true
+  notes:
+  - Metadata-only list index.
+  - AIMPL pages and PDFs are not crawled or copied.
+  - Records are source lists, not individual curated problems.
+  - Use primary_sources URLs for full source context.
+problem_lists:
+- id: aim-list-syzygies-and-mirror-symmetry
+  title: Syzygies and mirror symmetry
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Syzygies and mirror symmetry
+    url: http://aimpl.org/syzygyms/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-equivariant-techniques-in-stable-homotopy-theory
+  title: Equivariant techniques in stable homotopy theory
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Equivariant techniques in stable homotopy theory
+    url: http://aimpl.org/equivstable/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-rationality-problems-in-algebraic-geometry
+  title: Rationality problems in algebraic geometry
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Rationality problems in algebraic geometry
+    url: http://aimpl.org/rationalityag/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-categorified-hecke-algebras-link-homology-and-hilbert-schemes
+  title: Categorified Hecke algebras, link homology, and Hilbert schemes
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Categorified Hecke algebras, link homology, and Hilbert schemes
+    url: http://aimpl.org/catheckehilbert/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-rational-subvarieties-in-positive-characteristic
+  title: Rational subvarieties in positive characteristic
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Rational subvarieties in positive characteristic
+    url: http://aimpl.org/ratsubvarpos/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-positivity-of-cycles
+  title: Positivity of cycles
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Positivity of cycles
+    url: http://aimpl.org/poscycles/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-equivariant-derived-algebraic-geometry
+  title: Equivariant derived algebraic geometry
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Equivariant derived algebraic geometry
+    url: http://aimpl.org/equideralggeom
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-algebraic-vision
+  title: Algebraic vision
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Algebraic vision
+    url: http://aimpl.org/algvision
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-degenerations-in-algebraic-geometry
+  title: Degenerations in algebraic geometry
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Degenerations in algebraic geometry
+    url: https://aimath.org/pastworkshops/degenalggeomproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-projective-modules-and-a-1-homotopy-theory
+  title: Projective modules and $A^1$-homotopy theory
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Projective modules and $A^1$-homotopy theory
+    url: https://aimath.org/pastworkshops/projectiveA1problems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-the-minimal-model-program-in-characteristic-p
+  title: The minimal model program in characteristic $p$
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The minimal model program in characteristic $p$
+    url: http://aimpl.org/minimalmodcharp
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-singular-learning-theory
+  title: Singular learning theory
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Singular learning theory
+    url: http://aimpl.org/singularlearning/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-relating-test-ideals-and-multiplier-ideals
+  title: Relating test ideals and multiplier ideals
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Relating test ideals and multiplier ideals
+    url: http://aimpl.org/testandmultiplierideals/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-numerical-invariants-of-singularities-and-higher-dimensional-algebraic-varieties
+  title: Numerical invariants of singularities and higher-dimensional algebraic varieties
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Numerical invariants of singularities and higher-dimensional algebraic varieties
+    url: https://aimath.org/WWN/singularvariety/problems_final.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-compact-moduli-spaces-and-birational-geometry
+  title: Compact moduli spaces and birational geometry
+  area: algebraic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Compact moduli spaces and birational geometry
+    url: https://aimath.org/WWN/birational/birational.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic geometry
+    list_index_only: true
+- id: aim-list-degree-d-points-on-algebraic-surfaces
+  title: Degree d points on algebraic surfaces
+  area: algebraic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Degree d points on algebraic surfaces
+    url: http://aimpl.org/degreedsurface/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic number theory
+    list_index_only: true
+- id: aim-list-rational-and-integral-points-on-higher-dimensional-varieties
+  title: Rational and integral points on higher-dimensional varieties
+  area: algebraic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Rational and integral points on higher-dimensional varieties
+    url: https://aimath.org/pastworkshops/ratlhigherdimvarproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic number theory
+    list_index_only: true
+- id: aim-list-arithmetic-statistics-over-finite-fields-and-function-fields
+  title: Arithmetic statistics over finite fields and function fields
+  area: algebraic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Arithmetic statistics over finite fields and function fields
+    url: https://aimath.org/pastworkshops/arithstatffieldproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic number theory
+    list_index_only: true
+- id: aim-list-the-tate-conjecture
+  title: The Tate conjecture
+  area: algebraic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The Tate conjecture
+    url: https://aimath.org/WWN/tateconjecture/tateconjecture.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic number theory
+    list_index_only: true
+- id: aim-list-rational-and-integral-points-on-higher-dimensional-varieties-2
+  title: Rational and integral points on higher dimensional varieties
+  area: algebraic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Rational and integral points on higher dimensional varieties
+    url: https://aimath.org/WWN/qptsurface2/qptsurface2.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Algebraic number theory
+    list_index_only: true
+- id: aim-list-riemann-hilbert-problems-toeplitz-matrices-and-applications
+  title: Riemann-Hilbert problems, Toeplitz matrices, and applications
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Riemann-Hilbert problems, Toeplitz matrices, and applications
+    url: http://aimpl.org/riemhilberttoeplitz/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-shape-optimization-with-surface-interactions
+  title: Shape optimization with surface interactions
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Shape optimization with surface interactions
+    url: http://aimpl.org/shapesurface/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-problems-on-holomorphic-function-spaces-and-complex-dynamics
+  title: Problems on holomorphic function spaces and complex dynamics
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Problems on holomorphic function spaces and complex dynamics
+    url: http://aimpl.org/scvproblems/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-the-complex-monge-ampere-equation
+  title: The complex Monge-Ampere equation
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The complex Monge-Ampere equation
+    url: https://aimath.org/pastworkshops/mongeampereproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-carleson-theorems-and-multilinear-operators
+  title: Carleson theorems and multilinear operators
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Carleson theorems and multilinear operators
+    url: https://aimath.org/pastworkshops/multilinopsproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-mapping-theory-in-metric-spaces
+  title: Mapping theory in metric spaces
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Mapping theory in metric spaces
+    url: http://aimpl.org/mappingmetric
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-stability-hyperbolicity-and-zero-localization-of-functions
+  title: Stability, hyperbolicity, and zero localization of functions
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Stability, hyperbolicity, and zero localization of functions
+    url: http://aimpl.org/hyperbolicpoly
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-low-eigenvalues-of-laplace-and-schrodinger-operators
+  title: Low eigenvalues of Laplace and Schrodinger operators
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Low eigenvalues of Laplace and Schrodinger operators
+    url: https://aimath.org/WWN/loweigenvalues/loweigenvalues.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-random-analytic-functions
+  title: Random analytic functions
+  area: analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Random analytic functions
+    url: https://aimath.org/WWN/randomzeros/arcc1.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analysis
+    list_index_only: true
+- id: aim-list-delta-symbols-and-the-subconvexity-problem
+  title: Delta symbols and the subconvexity problem
+  area: analytic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Delta symbols and the subconvexity problem
+    url: http://aimpl.org/deltasubconvex2/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analytic number theory
+    list_index_only: true
+- id: aim-list-sarnak-s-conjecture
+  title: Sarnak's conjecture
+  area: analytic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Sarnak's conjecture
+    url: http://aimpl.org/sarnakconjecture/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analytic number theory
+    list_index_only: true
+- id: aim-list-moments-of-zeta-and-correlations-of-divisor-sums
+  title: Moments of zeta and correlations of divisor sums
+  area: analytic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Moments of zeta and correlations of divisor sums
+    url: http://aimpl.org/zetamoments
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analytic number theory
+    list_index_only: true
+- id: aim-list-gromov-witten-invariants-and-number-theory
+  title: Gromov-Witten invariants and number theory
+  area: analytic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Gromov-Witten invariants and number theory
+    url: http://aimpl.org/gromwitnumthry
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analytic number theory
+    list_index_only: true
+- id: aim-list-mock-modular-forms-in-combinatorics-and-arithmetic-geometry
+  title: Mock modular forms in combinatorics and arithmetic geometry
+  area: analytic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Mock modular forms in combinatorics and arithmetic geometry
+    url: https://aimath.org/WWN/mockmodular/mockmodular.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analytic number theory
+    list_index_only: true
+- id: aim-list-subconvexity-bounds-for-l-functions
+  title: Subconvexity bounds for L-functions
+  area: analytic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Subconvexity bounds for L-functions
+    url: https://aimath.org/WWN/subconvexity/subconvexity.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analytic number theory
+    list_index_only: true
+- id: aim-list-gaps-between-primes
+  title: Gaps between primes
+  area: analytic-number-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Gaps between primes
+    url: https://aimath.org/WWN/primegaps/WorkshopProblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Analytic number theory
+    list_index_only: true
+- id: aim-list-arithmetic-intersection-theory-on-shimura-varieties
+  title: Arithmetic intersection theory on Shimura varieties
+  area: arithmetic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Arithmetic intersection theory on Shimura varieties
+    url: http://aimpl.org/intersectshimura/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Arithmetic geometry
+    list_index_only: true
+- id: aim-list-brauer-groups-and-obstruction-problems-moduli-spaces-and-arithmetic
+  title: 'Brauer groups and obstruction problems: moduli spaces and arithmetic'
+  area: arithmetic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: 'Brauer groups and obstruction problems: moduli spaces and arithmetic'
+    url: http://aimpl.org/brauermoduli/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Arithmetic geometry
+    list_index_only: true
+- id: aim-list-cohomological-methods-in-abelian-varieties
+  title: Cohomological methods in abelian varieties
+  area: arithmetic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Cohomological methods in abelian varieties
+    url: http://aimpl.org/cohomabelian/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Arithmetic geometry
+    list_index_only: true
+- id: aim-list-deformation-theory-patching-quadratic-forms-and-the-brauer-group
+  title: Deformation theory, patching, quadratic forms, and the Brauer group
+  area: arithmetic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Deformation theory, patching, quadratic forms, and the Brauer group
+    url: http://aimpl.org/deformationbrauer/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Arithmetic geometry
+    list_index_only: true
+- id: aim-list-components-of-hilbert-schemes
+  title: Components of Hilbert schemes
+  area: arithmetic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Components of Hilbert schemes
+    url: https://aimath.org/WWN/hilbertschemes/hilbertschemes.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Arithmetic geometry
+    list_index_only: true
+- id: aim-list-topology-and-geometry-of-the-moduli-space-of-curves
+  title: Topology and geometry of the moduli space of curves
+  area: arithmetic-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Topology and geometry of the moduli space of curves
+    url: https://aimath.org/WWN/modspacecurves/modspacecurves.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Arithmetic geometry
+    list_index_only: true
+- id: aim-list-modeling-the-eye-as-a-window-on-the-body
+  title: Modeling the eye as a window on the body
+  area: biology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Modeling the eye as a window on the body
+    url: http://aimpl.org/eyewindow/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Biology
+    list_index_only: true
+- id: aim-list-systems-approaches-to-drug-discovery-and-development-in-oncology
+  title: Systems approaches to drug discovery and development in oncology
+  area: biology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Systems approaches to drug discovery and development in oncology
+    url: http://aimpl.org/systemsoncology/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Biology
+    list_index_only: true
+- id: aim-list-inference-and-prediction-in-neocortical-circuits
+  title: Inference and prediction in neocortical circuits
+  area: biology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Inference and prediction in neocortical circuits
+    url: https://aimath.org/WWN/brain/brain.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Biology
+    list_index_only: true
+- id: aim-list-geometric-models-of-biological-phenomena
+  title: Geometric models of biological phenomena
+  area: biology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Geometric models of biological phenomena
+    url: https://aimath.org/WWN/geombio/geombio.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Biology
+    list_index_only: true
+- id: aim-list-high-dimensional-phenomena-in-discrete-analysis
+  title: High-dimensional phenomena in discrete analysis
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: High-dimensional phenomena in discrete analysis
+    url: http://aimpl.org/highdimdiscrete
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-additive-combinatorics-and-its-applications
+  title: Additive combinatorics and its applications
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Additive combinatorics and its applications
+    url: http://aimpl.org/addcombapp
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-hereditary-discrepancy-and-factorization-norms
+  title: Hereditary discrepancy and factorization norms
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Hereditary discrepancy and factorization norms
+    url: http://aimpl.org/hereddiscrep
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-graph-ramsey-theory
+  title: Graph Ramsey theory
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Graph Ramsey theory
+    url: https://www.overleaf.com/read/mnvcscjjysvg
+    type: source-document
+  source_kind: source-document
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-generalizations-of-chip-firing-and-the-critical-group
+  title: Generalizations of chip-firing and the critical group
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Generalizations of chip-firing and the critical group
+    url: https://aimath.org/pastworkshops/chipfiringproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-rational-catalan-combinatorics
+  title: Rational Catalan combinatorics
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Rational Catalan combinatorics
+    url: http://aimpl.org/rationalcatalan/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-geometry-of-large-networks
+  title: Geometry of large networks
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Geometry of large networks
+    url: http://aimpl.org/largenetworks/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-hypergraph-turan-problem
+  title: Hypergraph Turan problem
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Hypergraph Turan problem
+    url: http://aimpl.org/hypergraphturan/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-the-caccetta-haggkvist-conjecture
+  title: The Caccetta-Haggkvist conjecture
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The Caccetta-Haggkvist conjecture
+    url: https://aimath.org/WWN/caccetta/caccetta.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-recent-trends-in-additive-combinatorics
+  title: Recent trends in additive combinatorics
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Recent trends in additive combinatorics
+    url: https://aimath.org/WWN/additivecomb/additivecomb.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-the-perfect-graph-conjecture
+  title: The Perfect Graph Conjecture
+  area: combinatorics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The Perfect Graph Conjecture
+    url: https://aimath.org/WWN/perfectgraph/perfectgraph.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Combinatorics
+    list_index_only: true
+- id: aim-list-the-computational-complexity-of-polynomial-factorization
+  title: The computational complexity of polynomial factorization
+  area: computation
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The computational complexity of polynomial factorization
+    url: https://aimath.org/WWN/polyfactor/polyfactor.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Computation
+    list_index_only: true
+- id: aim-list-numerical-methods-for-optimal-control-in-high-dimensions
+  title: Numerical methods for optimal control in high dimensions
+  area: computation
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Numerical methods for optimal control in high dimensions
+    url: https://aimath.org/WWN/optimalcontrol/optimalcontrol.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Computation
+    list_index_only: true
+- id: aim-list-time-reversal-communications-in-richly-scattering-environments
+  title: Time-reversal communications in richly scattering environments
+  area: computation
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Time-reversal communications in richly scattering environments
+    url: https://aimath.org/WWN/timerev/timerev.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Computation
+    list_index_only: true
+- id: aim-list-computational-algebraic-statistics
+  title: Computational algebraic statistics
+  area: computation
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Computational algebraic statistics
+    url: https://aimath.org/WWN/compalgstat/compalgstat.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Computation
+    list_index_only: true
+- id: aim-list-numerical-probabilistic-methods-for-high-dimensional-problems-in-finance
+  title: Numerical probabilistic methods for high-dimensional problems in finance
+  area: computation
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Numerical probabilistic methods for high-dimensional problems in finance
+    url: https://aimath.org/WWN/highdimfinance/highdimfinance.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Computation
+    list_index_only: true
+- id: aim-list-future-directions-in-algorithmic-number-theory
+  title: Future directions in algorithmic number theory
+  area: computation
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Future directions in algorithmic number theory
+    url: https://aimath.org/WWN/primesinp/primesinp.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Computation
+    list_index_only: true
+- id: aim-list-sections-of-convex-bodies
+  title: Sections of convex bodies
+  area: convex-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Sections of convex bodies
+    url: https://aimath.org/pastworkshops/sectionsconvexproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Convex geometry
+    list_index_only: true
+- id: aim-list-mahler-s-conjecture-and-duality-in-convex-geometry
+  title: Mahler's conjecture and duality in convex geometry
+  area: convex-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Mahler's conjecture and duality in convex geometry
+    url: https://aimath.org/WWN/mahlerduality/mahlerduality.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Convex geometry
+    list_index_only: true
+- id: aim-list-algorithmic-convex-geometry
+  title: Algorithmic convex geometry
+  area: convex-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Algorithmic convex geometry
+    url: https://aimath.org/WWN/convexgeometry/convexgeometry.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Convex geometry
+    list_index_only: true
+- id: aim-list-fourier-analytic-methods-in-convex-geometry
+  title: Fourier analytic methods in convex geometry
+  area: convex-geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Fourier analytic methods in convex geometry
+    url: https://aimath.org/WWN/fourierconvex/fourierconvex.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Convex geometry
+    list_index_only: true
+- id: aim-list-post-quantum-group-based-cryptography
+  title: Post-quantum group-based cryptography
+  area: cryptography
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Post-quantum group-based cryptography
+    url: http://aimpl.org/postquantgroup/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Cryptography
+    list_index_only: true
+- id: aim-list-quantum-algorithms-for-analysis-of-public-key-crypto
+  title: Quantum algorithms for analysis of public-key crypto
+  area: cryptography
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Quantum algorithms for analysis of public-key crypto
+    url: http://aimpl.org/quantumalg/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Cryptography
+    list_index_only: true
+- id: aim-list-groups-of-dynamical-origin
+  title: Groups of dynamical origin
+  area: dynamical-systems
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Groups of dynamical origin
+    url: http://aimpl.org/groupdynamorigin
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Dynamical systems
+    list_index_only: true
+- id: aim-list-the-galois-theory-of-orbits-in-arithmetic-dynamics
+  title: The Galois theory of orbits in arithmetic dynamics
+  area: dynamical-systems
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The Galois theory of orbits in arithmetic dynamics
+    url: http://aimpl.org/galarithdyn
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Dynamical systems
+    list_index_only: true
+- id: aim-list-stochastic-methods-for-non-equilibrium-dynamical-systems
+  title: Stochastic methods for non-equilibrium dynamical systems
+  area: dynamical-systems
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Stochastic methods for non-equilibrium dynamical systems
+    url: https://aimath.org/pastworkshops/noneqdynsysproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Dynamical systems
+    list_index_only: true
+- id: aim-list-postcritically-finite-maps-in-complex-and-arithmetic-dynamics
+  title: Postcritically finite maps in complex and arithmetic dynamics
+  area: dynamical-systems
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Postcritically finite maps in complex and arithmetic dynamics
+    url: http://aimpl.org/finitedynamics
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Dynamical systems
+    list_index_only: true
+- id: aim-list-low-dimensional-structures-in-dynamical-systems-with-variable-time-lags
+  title: Low dimensional structures in dynamical systems with variable time lags
+  area: dynamical-systems
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Low dimensional structures in dynamical systems with variable time lags
+    url: https://aimath.org/WWN/variabletimelag/variabletimelag.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Dynamical systems
+    list_index_only: true
+- id: aim-list-symmetry-and-convexity-in-geometric-inequalities
+  title: Symmetry and convexity in geometric inequalities
+  area: functional-analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Symmetry and convexity in geometric inequalities
+    url: http://aimpl.org/symconvgeomineq/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Functional analysis
+    list_index_only: true
+- id: aim-list-set-theory-and-c-algebras
+  title: Set theory and C*-algebras
+  area: functional-analysis
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Set theory and C*-algebras
+    url: http://aimpl.org/settheorycstar
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Functional analysis
+    list_index_only: true
+- id: aim-list-rigidity-properties-of-free-by-cyclic-groups
+  title: Rigidity properties of free-by-cyclic groups
+  area: geometric-group-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Rigidity properties of free-by-cyclic groups
+    url: http://aimpl.org/freebycyclic/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometric group theory
+    list_index_only: true
+- id: aim-list-geometry-and-topology-of-artin-groups
+  title: Geometry and topology of Artin groups
+  area: geometric-group-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Geometry and topology of Artin groups
+    url: http://aimpl.org/geomartingp/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometric group theory
+    list_index_only: true
+- id: aim-list-amenability-of-discrete-groups
+  title: Amenability of discrete groups
+  area: geometric-group-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Amenability of discrete groups
+    url: http://aimpl.org/amenablediscrete/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometric group theory
+    list_index_only: true
+- id: aim-list-l-2-invariants-and-their-relatives-for-finitely-generated-groups
+  title: $L^2$ invariants and their relatives for finitely generated groups
+  area: geometric-group-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: $L^2$ invariants and their relatives for finitely generated groups
+    url: http://aimpl.org/l2invariantsgroups/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometric group theory
+    list_index_only: true
+- id: aim-list-the-geometry-of-the-outer-automorphism-group-of-a-free-group
+  title: The geometry of the outer automorphism group of a free group
+  area: geometric-group-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The geometry of the outer automorphism group of a free group
+    url: https://aimath.org/WWN/outerauto/outerauto.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometric group theory
+    list_index_only: true
+- id: aim-list-problems-in-geometric-group-theory
+  title: Problems in geometric group theory
+  area: geometric-group-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Problems in geometric group theory
+    url: https://sites.google.com/a/scu.edu/rscott/pggt
+    type: external-index
+  source_kind: external-problem-list
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometric group theory
+    list_index_only: true
+- id: aim-list-the-property-of-rapid-decay
+  title: The property of rapid decay
+  area: geometric-group-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The property of rapid decay
+    url: https://aimath.org/WWN/rapiddecay/rapiddecay.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometric group theory
+    list_index_only: true
+- id: aim-list-symmetry-breaking-of-optimal-shapes
+  title: Symmetry-breaking of optimal shapes
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Symmetry-breaking of optimal shapes
+    url: http://aimpl.org/symmetrybreaking/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-cluster-algebras-and-braid-varieties
+  title: Cluster algebras and braid varieties
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Cluster algebras and braid varieties
+    url: http://aimpl.org/clusterbraid/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-equilibrium-states-for-dynamical-systems-arising-from-geometry
+  title: Equilibrium states for dynamical systems arising from geometry
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Equilibrium states for dynamical systems arising from geometry
+    url: http://aimpl.org/equibdynsysgeom/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-discrete-geometry-and-automorphic-forms
+  title: Discrete geometry and automorphic forms
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Discrete geometry and automorphic forms
+    url: http://aimpl.org/discreteaf/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-soft-packings-nested-clusters-and-condensed-matter
+  title: Soft packings, nested clusters, and condensed matter
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Soft packings, nested clusters, and condensed matter
+    url: http://aimpl.org/softpack/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-spectral-data-for-higgs-bundles
+  title: Spectral data for Higgs bundles
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Spectral data for Higgs bundles
+    url: http://aimpl.org/spectralhiggs
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-geometric-flows-and-riemannian-geometry
+  title: Geometric flows and Riemannian geometry
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Geometric flows and Riemannian geometry
+    url: http://aimpl.org/flowriemannian
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-configuration-spaces-of-linkages
+  title: Configuration spaces of linkages
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Configuration spaces of linkages
+    url: https://aimath.org/pastworkshops/linkagesproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-frame-theory-intersects-geometry
+  title: Frame theory intersects geometry
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Frame theory intersects geometry
+    url: https://aimath.org/pastworkshops/frametheorygeomproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-geodesics
+  title: Geodesics
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Geodesics
+    url: https://aimath.org/pastworkshops/geodesicsproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-calibrations
+  title: Calibrations
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Calibrations
+    url: https://aimath.org/WWN/calibrations/calibrations.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-sphere-packings-lattices-and-infinite-dimensional-algebra
+  title: Sphere packings, lattices, and infinite dimensional algebra
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Sphere packings, lattices, and infinite dimensional algebra
+    url: https://aimath.org/WWN/spherepacking/spherepacking.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-moment-maps-and-surjectivity-in-various-geometries
+  title: Moment maps and surjectivity in various geometries
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Moment maps and surjectivity in various geometries
+    url: https://aimath.org/WWN/momentmaps/momentmaps.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-amoebas-and-tropical-geometry
+  title: Amoebas and tropical geometry
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Amoebas and tropical geometry
+    url: https://aimath.org/WWN/amoebas/amoebas.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-conformal-structure-in-geometry-analysis-and-physics
+  title: Conformal structure in geometry, analysis, and physics
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Conformal structure in geometry, analysis, and physics
+    url: https://aimath.org/WWN/confstruct/confstruct.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-holomorphic-curves-in-contact-geometry
+  title: Holomorphic curves in contact geometry
+  area: geometry
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Holomorphic curves in contact geometry
+    url: https://aimath.org/WWN/contactgeom2/contactgeom2.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Geometry
+    list_index_only: true
+- id: aim-list-open-source-mathematics-curriculum-and-assessment-tools
+  title: Open source mathematics curriculum and assessment tools
+  area: infrastructure
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Open source mathematics curriculum and assessment tools
+    url: http://aimath.org/pastworkshops/oerassessmentproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Infrastructure
+    list_index_only: true
+- id: aim-list-open-source-cyberinfrastructure-supporting-mathematics-research
+  title: Open-source cyberinfrastructure supporting mathematics research
+  area: infrastructure
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Open-source cyberinfrastructure supporting mathematics research
+    url: http://aimpl.org/cyberinfrastructure/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Infrastructure
+    list_index_only: true
+- id: aim-list-pretext-for-small-documents
+  title: PreTeXt for small documents
+  area: infrastructure
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: PreTeXt for small documents
+    url: https://github.com/PreTeXtBook/community/wiki/Moderated-Problem-Session
+    type: source-repository
+  source_kind: source-repository
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Infrastructure
+    list_index_only: true
+- id: aim-list-macaulay2-expanded-functionality-and-improved-efficiency
+  title: 'Macaulay2: expanded functionality and improved efficiency'
+  area: infrastructure
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: 'Macaulay2: expanded functionality and improved efficiency'
+    url: http://aimpl.org/macaulay2efie/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Infrastructure
+    list_index_only: true
+- id: aim-list-gems-of-combinatorics
+  title: Gems of combinatorics
+  area: infrastructure
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Gems of combinatorics
+    url: http://aimpl.org/gemscombin/7/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Infrastructure
+    list_index_only: true
+- id: aim-list-research-on-inquiry-based-learning-in-undergraduate-real-analysis
+  title: Research on inquiry based learning in undergraduate real analysis
+  area: infrastructure
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Research on inquiry based learning in undergraduate real analysis
+    url: http://aimath.org/pastworkshops/iblanalysisrep.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Infrastructure
+    list_index_only: true
+- id: aim-list-spectral-graph-and-hypergraph-theory-connections-and-applications
+  title: 'Spectral graph and hypergraph theory: connections and applications'
+  area: linear-algebra
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: 'Spectral graph and hypergraph theory: connections and applications'
+    url: http://aimpl.org/spectralhypergraph/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Linear algebra
+    list_index_only: true
+- id: aim-list-theory-and-applications-of-total-positivity
+  title: Theory and applications of total positivity
+  area: linear-algebra
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Theory and applications of total positivity
+    url: http://aimpl.org/totalpos/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Linear algebra
+    list_index_only: true
+- id: aim-list-spectra-of-families-of-matrices-described-by-graphs-digraphs-and-sign-patterns
+  title: Spectra of families of matrices described by graphs, digraphs, and sign patterns
+  area: linear-algebra
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Spectra of families of matrices described by graphs, digraphs, and sign patterns
+    url: https://aimath.org/WWN/matrixspectrum/matrixspectrum.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Linear algebra
+    list_index_only: true
+- id: aim-list-from-2-to-infinity
+  title: "From \u21352 to infinity"
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: "From \u21352 to infinity"
+    url: http://aimpl.org/alephtwo/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-definability-and-decidability-problems-in-number-theory
+  title: Definability and decidability problems in number theory
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Definability and decidability problems in number theory
+    url: http://aimpl.org/definedecide/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-descriptive-inner-model-theory
+  title: Descriptive inner model theory
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Descriptive inner model theory
+    url: https://aimath.org/pastworkshops/innermodelproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-high-and-low-forcing
+  title: High and low forcing
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: High and low forcing
+    url: http://aimpl.org/highlowforcing
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-definability-and-decidability-problems-in-number-theory-2
+  title: Definability and decidability problems in number theory
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Definability and decidability problems in number theory
+    url: https://aimath.org/pastworkshops/definabilityinntproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-computable-stability-theory
+  title: Computable stability theory
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Computable stability theory
+    url: https://aimath.org/pastworkshops/computestabproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-model-theory-of-metric-structures
+  title: Model theory of metric structures
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Model theory of metric structures
+    url: https://aimath.org/WWN/continuouslogic/continuouslogic.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-extensions-of-hilbert-s-tenth-problem
+  title: Extensions of Hilbert's tenth problem
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Extensions of Hilbert's tenth problem
+    url: https://aimath.org/WWN/hilberts10th/hilberts10th.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-recent-advances-in-core-model-theory
+  title: Recent advances in core model theory
+  area: logic
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Recent advances in core model theory
+    url: https://aimath.org/WWN/coremodel/coremodel.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Logic
+    list_index_only: true
+- id: aim-list-theory-and-algorithms-of-linear-matrix-inequalities
+  title: Theory and algorithms of linear matrix inequalities
+  area: optimization
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Theory and algorithms of linear matrix inequalities
+    url: https://aimath.org/WWN/matrixineq/matrixineq.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Optimization
+    list_index_only: true
+- id: aim-list-small-scale-dynamics-in-incompressible-fluid-flows
+  title: Small scale dynamics in incompressible fluid flows
+  area: pdes
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Small scale dynamics in incompressible fluid flows
+    url: http://aimpl.org/smallscalefluid/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - PDEs
+    list_index_only: true
+- id: aim-list-computer-assisted-proofs-for-stability-analysis-of-nonlinear-waves
+  title: Computer assisted proofs for stability analysis of nonlinear waves
+  area: pdes
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Computer assisted proofs for stability analysis of nonlinear waves
+    url: http://aimpl.org/compproofstability/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - PDEs
+    list_index_only: true
+- id: aim-list-nonlocal-differential-equations-in-collective-behavior
+  title: Nonlocal differential equations in collective behavior
+  area: pdes
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Nonlocal differential equations in collective behavior
+    url: http://aimpl.org/nonlocalde
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - PDEs
+    list_index_only: true
+- id: aim-list-nonlinear-pdes-in-real-and-complex-geometry
+  title: Nonlinear PDEs in real and complex geometry
+  area: pdes
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Nonlinear PDEs in real and complex geometry
+    url: http://aimpl.org/nonlinpdegeom
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - PDEs
+    list_index_only: true
+- id: aim-list-stability-criteria-for-multi-dimensional-waves-and-patterns
+  title: Stability criteria for multi-dimensional waves and patterns
+  area: pdes
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Stability criteria for multi-dimensional waves and patterns
+    url: https://aimath.org/WWN/multidimwaves/multidimwaves.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - PDEs
+    list_index_only: true
+- id: aim-list-stiff-sources-and-numerical-methods-for-conservation-laws
+  title: Stiff sources and numerical methods for conservation laws
+  area: pdes
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Stiff sources and numerical methods for conservation laws
+    url: https://aimath.org/WWN/balancelaws/balancelaws.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - PDEs
+    list_index_only: true
+- id: aim-list-new-connections-between-dynamical-systems-and-pde-s
+  title: New connections between dynamical systems and PDE's
+  area: pdes
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: New connections between dynamical systems and PDE's
+    url: https://aimath.org/WWN/dynpde/dynpde.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - PDEs
+    list_index_only: true
+- id: aim-list-non-hermitian-quantum-mechanics-and-symplectic-geometry
+  title: Non-Hermitian quantum mechanics and symplectic geometry
+  area: physics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Non-Hermitian quantum mechanics and symplectic geometry
+    url: http://aimpl.org/nhquantumsymp/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Physics
+    list_index_only: true
+- id: aim-list-mathematical-aspects-of-physics-with-non-self-adjoint-operators
+  title: Mathematical aspects of physics with non-self-adjoint operators
+  area: physics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Mathematical aspects of physics with non-self-adjoint operators
+    url: https://aimath.org/pastworkshops/nonselfadjointproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Physics
+    list_index_only: true
+- id: aim-list-integrable-systems-in-gromov-witten-and-symplectic-field-theory
+  title: Integrable systems in Gromov-Witten and symplectic field theory
+  area: physics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Integrable systems in Gromov-Witten and symplectic field theory
+    url: http://aimpl.org/gromwitnumthry/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Physics
+    list_index_only: true
+- id: aim-list-phase-transitions
+  title: Phase transitions
+  area: physics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Phase transitions
+    url: https://aimath.org/WWN/phasetransition/phasetransition.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Physics
+    list_index_only: true
+- id: aim-list-gravitational-lensing-in-the-kerr-spacetime-geometry
+  title: Gravitational lensing in the Kerr spacetime geometry
+  area: physics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Gravitational lensing in the Kerr spacetime geometry
+    url: https://aimath.org/WWN/lensing/lensing.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Physics
+    list_index_only: true
+- id: aim-list-l-2-harmonic-forms-in-geometry-and-string-theory
+  title: $L^2$ harmonic forms in geometry and string theory
+  area: physics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: $L^2$ harmonic forms in geometry and string theory
+    url: https://aimath.org/WWN/l2harmonic/l2harmonic.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Physics
+    list_index_only: true
+- id: aim-list-variational-methods-in-celestial-mechanics
+  title: Variational Methods in Celestial Mechanics
+  area: physics
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Variational Methods in Celestial Mechanics
+    url: https://aimath.org/WWN/varcelest/varcelest.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Physics
+    list_index_only: true
+- id: aim-list-boltzmann-machines
+  title: Boltzmann Machines
+  area: probability
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Boltzmann Machines
+    url: http://aimpl.org/boltzmann/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Probability
+    list_index_only: true
+- id: aim-list-stein-s-method-and-applications-in-high-dimensional-statistics
+  title: Stein's method and applications in high-dimensional statistics
+  area: probability
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Stein's method and applications in high-dimensional statistics
+    url: http://aimpl.org/steinhd
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Probability
+    list_index_only: true
+- id: aim-list-markov-chain-mixing-times
+  title: Markov chain mixing times
+  area: probability
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Markov chain mixing times
+    url: http://aimpl.org/markovmixing
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Probability
+    list_index_only: true
+- id: aim-list-vector-equilibrium-problems-and-their-applications-to-random-matrix-models
+  title: Vector equilibrium problems and their applications to random matrix models
+  area: probability
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Vector equilibrium problems and their applications to random matrix models
+    url: http://aimpl.org/vectorequilib/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Probability
+    list_index_only: true
+- id: aim-list-the-kardar-parisi-zhang-equation-and-universality-class
+  title: The Kardar-Parisi-Zhang equation and universality class
+  area: probability
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The Kardar-Parisi-Zhang equation and universality class
+    url: http://aimpl.org/kpzuniversality/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Probability
+    list_index_only: true
+- id: aim-list-free-analysis
+  title: Free analysis
+  area: probability
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Free analysis
+    url: https://aimath.org/WWN/freeanalysis/freeanalysis.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Probability
+    list_index_only: true
+- id: aim-list-braid-groups-clusters-and-free-probability
+  title: Braid groups, clusters and free probability
+  area: probability
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Braid groups, clusters and free probability
+    url: https://aimath.org/WWN/braidgroups/braidgroups.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Probability
+    list_index_only: true
+- id: aim-list-analytic-arithmetic-and-geometric-aspects-of-automorphic-forms
+  title: Analytic, arithmetic, and geometric aspects of automorphic forms
+  area: representation-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Analytic, arithmetic, and geometric aspects of automorphic forms
+    url: http://aimpl.org/aagaautomorphic
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Representation theory
+    list_index_only: true
+- id: aim-list-representation-stability
+  title: Representation stability
+  area: representation-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Representation stability
+    url: http://aimpl.org/repnstability
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Representation theory
+    list_index_only: true
+- id: aim-list-sheaves-and-modular-representations-of-reductive-groups
+  title: Sheaves and modular representations of reductive groups
+  area: representation-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Sheaves and modular representations of reductive groups
+    url: http://aimpl.org/sheavemodular/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Representation theory
+    list_index_only: true
+- id: aim-list-automorphic-kernel-functions
+  title: Automorphic kernel functions
+  area: representation-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Automorphic kernel functions
+    url: https://aimath.org/pastworkshops/automorphkernelproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Representation theory
+    list_index_only: true
+- id: aim-list-automorphic-forms-and-harmonic-analysis-on-covering-groups
+  title: Automorphic forms and harmonic analysis on covering groups
+  area: representation-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Automorphic forms and harmonic analysis on covering groups
+    url: http://aimpl.org/autoformcovergp
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Representation theory
+    list_index_only: true
+- id: aim-list-supercharacters-and-combinatorial-hopf-algebras
+  title: Supercharacters and combinatorial Hopf algebras
+  area: representation-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Supercharacters and combinatorial Hopf algebras
+    url: https://aimath.org/WWN/supercharacters/supercharacters.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Representation theory
+    list_index_only: true
+- id: aim-list-p-adic-representations-modularity-and-beyond
+  title: $p$-adic representations, modularity, and beyond
+  area: representation-theory
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: $p$-adic representations, modularity, and beyond
+    url: https://aimath.org/WWN/padicmodularity/padicmodularity.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Representation theory
+    list_index_only: true
+- id: aim-list-the-cauchy-riemann-equations-in-several-variables
+  title: The Cauchy-Riemann equations in several variables
+  area: several-complex-variables
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: The Cauchy-Riemann equations in several variables
+    url: http://aimpl.org/crscv
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Several complex variables
+    list_index_only: true
+- id: aim-list-emerging-applications-of-complexity-for-cr-mappings
+  title: Emerging applications of complexity for CR mappings
+  area: several-complex-variables
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Emerging applications of complexity for CR mappings
+    url: https://aimath.org/WWN/crmappings/crmappings.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Several complex variables
+    list_index_only: true
+- id: aim-list-complexity-of-mappings-in-cr-geometry
+  title: Complexity of mappings in CR geometry
+  area: several-complex-variables
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Complexity of mappings in CR geometry
+    url: https://aimath.org/WWN/complexitycrmap/complexitycrmap.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Several complex variables
+    list_index_only: true
+- id: aim-list-generalized-kostka-polynomials
+  title: Generalized Kostka polynomials
+  area: special-functions
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Generalized Kostka polynomials
+    url: https://aimath.org/WWN/kostka/prob2.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Special functions
+    list_index_only: true
+- id: aim-list-higher-dimensional-contact-topology
+  title: Higher-dimensional contact topology
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Higher-dimensional contact topology
+    url: http://aimpl.org/highdimcontacttop/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-quantum-invariants-and-low-dimensional-topology
+  title: Quantum invariants and low-dimensional topology
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Quantum invariants and low-dimensional topology
+    url: http://aimpl.org/quantumlowdimtop/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-algebra-geometry-and-combinatorics-of-link-homology
+  title: Algebra, geometry, and combinatorics of link homology
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Algebra, geometry, and combinatorics of link homology
+    url: http://aimpl.org/agclinkhom/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-discrete-and-combinatorial-homotopy-theory
+  title: Discrete and combinatorial homotopy theory
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Discrete and combinatorial homotopy theory
+    url: http://aimpl.org/combhomotop/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-smooth-concordance-classes-of-topologically-slice-knots
+  title: Smooth concordance classes of topologically slice knots
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Smooth concordance classes of topologically slice knots
+    url: http://aimpl.org/concordsliceknot/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-surfaces-of-infinite-type
+  title: Surfaces of infinite type
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Surfaces of infinite type
+    url: http://aimpl.org/genusinfinity/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-lipschitz-metric-on-teichmueller-space
+  title: Lipschitz metric on Teichmueller space
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Lipschitz metric on Teichmueller space
+    url: https://aimath.org/pastworkshops/lipschitzteichproblems.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-contact-topology-in-higher-dimensions
+  title: Contact topology in higher dimensions
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Contact topology in higher dimensions
+    url: http://aimath.org/WWN/contacttop/notes_contactworkshop2012.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-manifolds-with-nonnegative-sectional-curvature
+  title: Manifolds with nonnegative sectional curvature
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Manifolds with nonnegative sectional curvature
+    url: https://aimath.org/WWN/nnsectcurvature/nnsectcurvature.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-representations-of-surface-groups
+  title: Representations of surface groups
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Representations of surface groups
+    url: https://aimath.org/WWN/surfacegroups/surfacegroups.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-moduli-spaces-of-knots
+  title: Moduli spaces of knots
+  area: topology
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Moduli spaces of knots
+    url: https://aimath.org/WWN/spaceofknots/
+    type: database-record
+  source_kind: aim-page
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Topology
+    list_index_only: true
+- id: aim-list-dynamical-algebraic-combinatorics
+  title: Dynamical algebraic combinatorics
+  area: other
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Dynamical algebraic combinatorics
+    url: http://aimath.org/pastworkshops/dac_preworkshop.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Other
+    list_index_only: true
+- id: aim-list-classifying-fusion-categories
+  title: Classifying fusion categories
+  area: other
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Classifying fusion categories
+    url: http://aimpl.org/fusioncat/
+    type: database-record
+  source_kind: aimpl
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Other
+    list_index_only: true
+- id: aim-list-emerging-applications-of-measure-rigidity
+  title: Emerging applications of measure rigidity
+  area: other
+  status: unknown
+  source_ids:
+  - aim-problem-lists
+  primary_sources:
+  - title: Emerging applications of measure rigidity
+    url: https://aimath.org/WWN/measrigid/measrigid.pdf
+    type: paper
+  source_kind: pdf
+  workspace_status: not-created
+  curation_status: seed-only
+  import_metadata:
+    source_areas:
+    - Other
+    list_index_only: true

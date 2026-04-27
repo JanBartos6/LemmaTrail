@@ -100,6 +100,42 @@ Maintainer resume behavior:
 - state: `.cache/imports/erdos-problems/<scope>/state.json`
 - final output is written only after all selected records are transformed
 
+### TOPP
+
+Script: `tools/import_topp.py`
+
+Source: `https://github.com/edemaine/topp`
+
+Public output: `catalog/imports/topp/problems.yaml`
+
+The adapter imports metadata from TOPP problem specification files. It does
+not copy problem statements or status prose. Source status is inferred from
+short status fields and must be rechecked before curation.
+
+Maintainer resume behavior:
+
+- source clone: `.cache/sources/topp/`
+- checkpoints: `.cache/imports/topp/<scope>/records.jsonl`
+- state: `.cache/imports/topp/<scope>/state.json`
+- final output is written only after all selected records are transformed
+
+### AIM Problem Lists
+
+Script: `tools/import_aim_problem_lists.py`
+
+Source: `https://aimath.org/problemlists/`
+
+Public output: `catalog/imports/aim-problem-lists/problem-lists.yaml`
+
+The adapter imports the AIM list index only. It does not crawl AIMPL pages,
+download PDFs, or copy problem statements.
+
+Maintainer resume behavior:
+
+- checkpoints: `.cache/imports/aim-problem-lists/all/records.jsonl`
+- state: `.cache/imports/aim-problem-lists/all/state.json`
+- final output is written only after all selected records are transformed
+
 ## Source Review Checklist
 
 Before adding an adapter:
