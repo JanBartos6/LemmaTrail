@@ -30,13 +30,19 @@ Any future scraper should output small records:
 ```yaml
 id: candidate-problem-id
 title: Problem title
-source_id: source-id
-source_url: https://example.org/problem
 area: unknown
+status: open
+source_ids:
+  - source-id
+primary_sources:
+  - title: Source title
+    url: https://example.org/problem
+    type: official | survey | database | paper | wiki | unknown
 imported_at: YYYY-MM-DD
-workspace_status: candidate-needs-curation
-notes: Short source note only.
+workspace_status: not-created
+curation_status: seed-only
 ```
 
 The scraper should not import full pages, long prose, images, or generated explanations.
 
+See [scraping-sources.md](scraping-sources.md) for source tiers and adapter order.
