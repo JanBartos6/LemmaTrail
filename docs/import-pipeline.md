@@ -46,3 +46,12 @@ curation_status: seed-only
 The scraper should not import full pages, long prose, images, or generated explanations.
 
 See [scraping-sources.md](scraping-sources.md) for source tiers and adapter order.
+
+## Resume Behavior
+
+Importers that process many records should checkpoint outside the committed
+catalog, usually under `.cache/imports/<source-id>/`.
+
+The final catalog file should be written atomically after the selected records
+are complete. This keeps committed catalog files valid even when an import is
+interrupted.
