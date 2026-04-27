@@ -1,5 +1,7 @@
 # Source And Reproducibility Policy
 
+This is a draft guardrail for `v0.1-alpha`, not final governance.
+
 Every durable contribution must be checkable.
 
 That means it must provide either:
@@ -30,7 +32,7 @@ Bad source notes:
 
 If no external source is available, write the reasoning so another reviewer can get to the same finding.
 
-Required sections:
+Current expected sections:
 
 - statement
 - dependencies
@@ -49,4 +51,3 @@ Computation-backed claims must include enough detail to reproduce the result:
 - limitations
 
 Generated artifacts should not be committed unless they are necessary for review.
-

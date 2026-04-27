@@ -1,6 +1,8 @@
 # Contributing
 
-LemmaTrail is designed to stay readable for mathematicians and usable by models. Contributions are welcome only when they improve the research state.
+LemmaTrail is designed to stay readable for mathematicians and usable by models. Human and AI-assisted contributions are welcome only when they improve the research state.
+
+This is a `v0.1-alpha` project. The rules below are current guardrails, not final governance. They exist to keep the repository reviewable while the format evolves.
 
 ## Contribution Types
 
@@ -51,6 +53,8 @@ ai_assistance:
 
 Do not include raw model transcripts. Distill the useful mathematical state into the required template.
 
+LLMs and agents should also follow [INSTRUCTIONS.md](INSTRUCTIONS.md).
+
 ## Text Policy
 
 Text is allowed only when it serves verification or continuation. See [docs/text-policy.md](docs/text-policy.md).
@@ -76,4 +80,3 @@ Before opening a PR:
 - [ ] Any AI assistance is disclosed.
 - [ ] The gap or weakness is stated.
 - [ ] The next continuation point is concrete.
-
