@@ -47,7 +47,7 @@ LLM-generated work is welcome when it is useful, structured, and reviewable.
 
 Accepted LLM-assisted contributions should normally arrive as pull requests or review comments using the repository templates. A model may propose a claim, route, failed attempt, source connection, derivation, or continuation point. It should not rewrite large parts of the repository, submit raw transcripts, or present unverified work as proven.
 
-Pull requests or comments that do not follow the current format should not be merged. The format can evolve, but unstructured output should not become repository state.
+Pull requests or comments that do not follow the current format will not be merged. The format can evolve, but unstructured output should not become repository state.
 
 See [INSTRUCTIONS.md](INSTRUCTIONS.md) for the current model-facing workflow.
 
