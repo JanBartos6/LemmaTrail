@@ -1,0 +1,17 @@
+# Local tooling
+.venv/
+venv/
+node_modules/
+
+# Generated outputs
+site/
+dist/
+build/
+.cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
