@@ -1,6 +1,6 @@
 # Scraping Sources
 
-This document lists candidate sources for building the problem catalog.
+This is a maintainer-facing document for building the problem catalog.
 
 The first importer should collect metadata only. It should not copy long descriptions, PDF text, abstracts, or full problem statements into this repository.
 
@@ -87,13 +87,13 @@ Script: `tools/import_erdos_problems.py`
 
 Source: `https://github.com/teorth/erdosproblems`
 
-Output: `catalog/imports/erdos-problems/problems.yaml`
+Public output: `catalog/imports/erdos-problems/problems.yaml`
 
 The adapter imports unresolved source records by default. It uses the Apache-2.0
 licensed GitHub source repository instead of crawling `erdosproblems.com`
 directly.
 
-Resume behavior:
+Maintainer resume behavior:
 
 - source clone: `.cache/sources/erdosproblems/`
 - checkpoints: `.cache/imports/erdos-problems/<scope>/records.jsonl`
