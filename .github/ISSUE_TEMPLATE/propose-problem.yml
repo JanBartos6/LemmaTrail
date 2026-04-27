@@ -1,0 +1,36 @@
+name: Propose a problem
+description: Suggest a mathematical problem workspace for curation.
+title: "Problem proposal: "
+labels:
+  - type/problem
+  - status/needs-review
+body:
+  - type: input
+    id: problem-name
+    attributes:
+      label: Problem name
+      description: Use the standard name if one exists.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: List official, survey, or primary sources.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this belongs
+      description: Explain why this problem is suitable for Magent.
+    validations:
+      required: true
+  - type: textarea
+    id: initial-routes
+    attributes:
+      label: Known routes
+      description: List known major approaches, if any.
+    validations:
+      required: false
+

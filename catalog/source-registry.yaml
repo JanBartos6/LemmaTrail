@@ -1,0 +1,24 @@
+sources:
+  - id: clay-millennium
+    name: Clay Mathematics Institute - Millennium Prize Problems
+    url: https://www.claymath.org/millennium-problems/
+    type: official-problem-source
+    import_mode: manual-curated
+    canonical_use: problem names, official summaries, official problem pages
+
+  - id: topp
+    name: TOPP - The Open Problems Project
+    url: https://topp.openproblem.net/
+    source_repo: https://github.com/edemaine/topp
+    type: open-problem-list
+    import_mode: curated-adapter-later
+    canonical_use: candidate computational geometry workspaces after license and source review
+
+  - id: wikipedia-unsolved-math
+    name: Wikipedia - List of unsolved problems in mathematics
+    url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics
+    type: discovery-index
+    import_mode: discovery-only
+    canonical_use: none
+    caution: Trace every candidate to primary or survey sources before creating a canonical workspace.
+
