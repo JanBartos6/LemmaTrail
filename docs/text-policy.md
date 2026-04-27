@@ -1,5 +1,7 @@
 # Text Policy
 
+This is a draft guardrail for `v0.1-alpha`, not final governance.
+
 Text is allowed only when it helps verification or continuation.
 
 The repository should not be equations-only, because reviewers and future models need context, dependencies, gaps, and source notes. But prose must be structured and attached to a mathematical purpose.
@@ -44,12 +46,8 @@ Preferred style:
 
 Avoid free-floating paragraphs in mathematical files. If a paragraph does not fit under `Context`, `Source`, `Derivation`, `Gap`, `Review`, or `Next Step`, it probably does not belong.
 
-## Length Guardrails
+## Brevity Rule
 
-These are guardrails, not hard law:
+Use the shortest text that preserves reproducibility.
 
-- Context: at most 150 words
-- Justification per formal step: at most 2 sentences
-- Gap: at most 100 words
-- Next step: at most 100 words
-
+The project has not yet decided exact limits for comments, prose, formulas, or LLM-generated explanation. Until then, reviewers should reject text that makes the repository harder to verify or continue from.

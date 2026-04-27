@@ -2,6 +2,8 @@
 
 Magent exists because AI-assisted reasoning is becoming powerful, but most reasoning attempts disappear inside isolated chat sessions. That wastes compute, human attention, and partial progress.
 
+The project is intentionally AI-supported. A person should be able to point a model at the repository and ask it to continue from the current state, inspect failed attempts, propose a route, or prepare a small reviewable pull request.
+
 The project treats difficult mathematical work as shared research state:
 
 - what is known
@@ -11,7 +13,7 @@ The project treats difficult mathematical work as shared research state:
 - what depends on what
 - what should be checked next
 
-The intended audience includes mathematicians, scientists, programmers with model access, prompt engineers, and AI systems. The repository should be readable by humans and easy for models to continue from.
+The intended audience includes mathematicians, scientists, programmers with model access, prompt engineers, frontier-model teams, and AI systems. The repository should be readable by humans and easy for models to continue from.
 
 ## Motivation
 
@@ -28,4 +30,3 @@ Raw model output is usually too verbose, too unreliable, and too hard to review.
 ## Working Thesis
 
 The useful unit is not a conversation. The useful unit is a checkable research object.
-
