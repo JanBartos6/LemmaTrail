@@ -5,12 +5,6 @@ This directory contains metadata imported from the Apache-2.0 licensed
 
 The import is metadata-only. Problem statements are not copied here.
 
-Run:
+Use `problems.yaml` directly as the catalog listing.
 
-```bash
-python -m pip install -r requirements.txt
-python tools/import_erdos_problems.py
-```
-
-The importer checkpoints progress under `.cache/imports/erdos-problems/`, so an
-interrupted run can resume without restarting the transform.
+Importer code exists for maintainers, but normal users do not need to run it.

@@ -6,8 +6,7 @@ The repository is organized around problem workspaces. Each workspace uses the s
 
 ```text
 catalog/
-  imports/               Metadata imported from external sources
-  listings/              Generated human/model-readable catalog listings
+  imports/               Metadata-only YAML catalogs from external sources
 problems/<problem-id>/
   problem.md
   glossary.md
@@ -32,8 +31,8 @@ problems/<problem-id>/
 
 `problem.md` is the concise problem statement, scope, source trail, and status.
 
-`catalog/listings/` contains generated metadata listings. These are not curated
-problem workspaces and should not be treated as reviewed problem statements.
+`catalog/imports/` contains seed metadata. These records are not curated problem
+workspaces and should not be treated as reviewed problem statements.
 
 `glossary.md` defines local notation. Avoid redefining notation inside claims unless the claim needs local temporary notation.
 

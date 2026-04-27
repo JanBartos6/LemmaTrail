@@ -56,7 +56,7 @@ Future versions may support richer agent workflows, benchmarks, automated triage
 ## Repository Map
 
 ```text
-catalog/                 Candidate problem sources and seed problem index
+catalog/                 Candidate sources and imported YAML problem metadata
 docs/                    Project rules, status model, source policy, text policy
 problems/                Problem workspaces
   _template/             Copy this folder to start a new problem
