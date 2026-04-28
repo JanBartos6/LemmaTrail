@@ -10,8 +10,10 @@ Read:
 
 1. `README.md`
 2. `CONTRIBUTING.md`
-3. the relevant problem folder under `problems/`
-4. the relevant template under `templates/`
+3. `docs/pr-guard.md`
+4. the relevant catalog record under `catalog/`
+5. the relevant problem folder under `problems/`, if it exists
+6. the relevant template under `templates/`
 
 If the problem folder does not exist yet, work from `catalog/seed-problems.yaml` and propose a curated workspace rather than creating a large unsourced folder.
 
@@ -57,6 +59,10 @@ Any proposed mathematical contribution must include:
 - the smallest useful next step
 - AI assistance disclosure when applicable
 
+State claims as narrowly as the derivation supports. Do not imply a complexity
+classification, final solution, or polynomial certificate unless the object
+actually proves it.
+
 If you cannot produce that, say that no repository contribution is justified.
 
 ## Pull Request Behavior
@@ -79,6 +85,23 @@ If asked to "attempt" or "solve" a hard problem, treat that as permission to
 make one small, reviewable research contribution. Do not create a full problem
 workspace, full theory, or final proof unless the user explicitly asks for that
 scope.
+
+If asked to publish, open, or make a pull request, and you have Git and GitHub
+access, do the full PR workflow:
+
+1. create a branch,
+2. add or edit the single intended object,
+3. commit it,
+4. run the PR guard against the committed branch,
+5. push the branch, and
+6. open the pull request.
+
+A local untracked file is not a pull request. Do not say a PR exists until it
+has been opened. Do not say the PR guard passed unless you actually ran the
+guard command and it exited successfully.
+
+If you do not have the ability to commit, push, or open a PR, say that clearly
+and provide only the smallest reviewable patch or file content.
 
 Model-generated material is not reviewed by virtue of being generated. Do not
 set `llm_reviewed: true`, `human_reviewed: true`, or `formal_reviewed: true`
