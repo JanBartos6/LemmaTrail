@@ -17,7 +17,8 @@ Maintainer override is label-only: `maintainer-override` or `pr-guard: override`
 
 ## What Changed
 
-Briefly state the research-state improvement.
+For research PRs, state the problem ID and summarize the checkable research
+object or objects added. Keep the PR scoped to one problem.
 
 ## Verification
 

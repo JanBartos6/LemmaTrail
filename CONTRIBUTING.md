@@ -76,9 +76,10 @@ Before opening a PR, leave the `PR type:` marker in the pull request body.
 - Use `PR type: research` for problem proposals, reviews, failures, claims, routes, and tasks.
 - Use `PR type: technical` for tooling, documentation, templates, catalog imports, CI, or repository policy.
 
-Research PRs are intentionally strict: one PR should normally add or edit one
-checkable research object. Technical PRs may edit infrastructure, but they must
-not edit active problem workspaces.
+Research PRs are intentionally strict about scope: one PR must stay within one
+problem workspace. It may include multiple connected, checkable research
+objects when each one improves the review state. Technical PRs may edit
+infrastructure, but they must not edit active problem workspaces.
 
 Before opening a PR:
 

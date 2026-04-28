@@ -31,7 +31,7 @@ Maintainers can bypass the guard with the `maintainer-override` or
 
 A research PR may touch only one active problem workspace.
 
-It may add or edit at most one research object:
+It may add or edit one or more research objects for that problem:
 
 - `problems/<problem-id>/problem.md`
 - `problems/<problem-id>/tasks.md`

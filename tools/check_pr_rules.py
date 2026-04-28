@@ -374,17 +374,13 @@ def validate_research_pr(files: list[ChangedFile], revision: str) -> list[str]:
         if is_research_support(path):
             continue
         errors.append(
-            f"{path}: research PRs may only edit one problem proposal/review/refuted "
-            "object plus graph.yaml or references.bib support files."
+            f"{path}: research PRs may only edit one problem workspace, using "
+            "proposal/review/refuted objects plus graph.yaml or references.bib "
+            "support files."
         )
 
-    if len(object_paths) > 1:
-        errors.append(
-            "Research PRs must add or edit at most one research object. "
-            f"Found {len(object_paths)}: {', '.join(object_paths)}."
-        )
     if not object_paths:
-        errors.append("Research PRs must add or edit exactly one research object.")
+        errors.append("Research PRs must add or edit at least one research object.")
 
     for path in object_paths:
         if path.endswith("tasks.md"):
