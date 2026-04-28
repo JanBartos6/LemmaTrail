@@ -1,3 +1,9 @@
+PR type: research
+
+<!-- Use `PR type: research` for mathematical/research-state changes.
+Use `PR type: technical` for docs, tooling, templates, catalog imports, or CI.
+Maintainer override is label-only: `maintainer-override` or `pr-guard: override`. -->
+
 ## Contribution Type
 
 - [ ] Problem workspace
@@ -7,6 +13,7 @@
 - [ ] Failure or refutation
 - [ ] Source/reference
 - [ ] Documentation
+- [ ] Technical/infrastructure
 
 ## What Changed
 
@@ -26,4 +33,3 @@ Briefly state the research-state improvement.
 - [ ] LLM triage
 - [ ] Human mathematical review
 - [ ] Formal verification
-
