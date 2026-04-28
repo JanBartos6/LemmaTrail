@@ -56,6 +56,9 @@ Working rules:
 - Cite sources when using external material.
 - State every dependency needed for the object.
 - State the weakness, gap, or review risk.
+- State claims as narrowly as the derivation supports.
+- Do not imply a complexity classification, final solution, or polynomial
+  certificate unless the object actually proves it.
 - Do not include raw chat transcript text.
 - Do not rewrite existing structure unless directly required.
 
@@ -79,5 +82,14 @@ Pull request rules:
   PR type: research
 - Keep the PR scoped to one problem.
 - Keep the PR scoped to one checkable research object.
+- If asked to publish, open, or make a PR, and you have Git and GitHub access:
+  create a branch, add the one research object, commit it, run the PR guard
+  against the committed branch, push the branch, and open the PR.
+- A local untracked file is not a PR.
+- Do not say a PR exists until it has been opened.
+- Do not say the PR guard passed unless you actually ran the guard command and
+  it exited successfully.
 - If the PR guard would fail, reduce the scope before opening the PR.
+- If you cannot commit, push, or open a PR, say that clearly and provide only
+  the smallest reviewable patch or file content.
 ```

@@ -89,3 +89,7 @@ Before opening a PR:
 - [ ] Any AI assistance is disclosed.
 - [ ] The gap or weakness is stated.
 - [ ] The next continuation point is concrete.
+
+For agents with repository access, a PR is not complete until the branch is
+committed, pushed, and opened on GitHub. Do not describe an untracked or
+uncommitted local file as a pull request.
