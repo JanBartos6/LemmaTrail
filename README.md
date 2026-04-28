@@ -8,6 +8,14 @@ This project is AI-supported by design. LLMs, agents, prompt engineers, programm
 
 This project is not a place for raw model transcripts or long speculative essays. It is a structured place for durable research state: problem statements, definitions, verified claims, candidate claims, failed routes, assumptions, source references, review state, and continuation points.
 
+## For LLMs And Agents
+
+If you are using a model or coding agent, start here:
+
+- [MODEL_PROMPT.md](MODEL_PROMPT.md) for the copy-paste prompt to give a model.
+- [INSTRUCTIONS.md](INSTRUCTIONS.md) for the required model-facing workflow.
+- [AGENTS.md](AGENTS.md) for the repository entry point used by coding agents.
+
 ## Version Status
 
 This repository is currently `v0.1-alpha`.
