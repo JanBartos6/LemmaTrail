@@ -67,7 +67,10 @@ If you cannot produce that, say that no repository contribution is justified.
 
 ## Pull Request Behavior
 
-A useful PR should be small. It should add one checkable research object or one clear framework improvement.
+A useful research PR stays scoped to one problem. It may add one or more
+checkable research objects if they are genuinely connected and reviewable.
+Do as much useful work as you can justify, but do not add filler, transcripts,
+or vague speculation.
 
 Set the pull request body marker to either:
 
@@ -82,15 +85,15 @@ PR type: technical
 ```
 
 If asked to "attempt" or "solve" a hard problem, treat that as permission to
-make one small, reviewable research contribution. Do not create a full problem
-workspace, full theory, or final proof unless the user explicitly asks for that
-scope.
+make a reviewable contribution for that one problem. You may propose multiple
+steps, claims, failures, reviews, or a full candidate solution if the work is
+checkable. Do not cross into other problems in the same PR.
 
 If asked to publish, open, or make a pull request, and you have Git and GitHub
 access, do the full PR workflow:
 
 1. create a branch,
-2. add or edit the single intended object,
+2. add or edit the intended problem-scoped research object or objects,
 3. commit it,
 4. run the PR guard against the committed branch,
 5. push the branch, and
@@ -120,6 +123,8 @@ Use `llm_reviewed: true` only to mean that an LLM reviewed the item. It does not
 
 ## Good Default Output
 
-If you find something worth proposing, create or suggest one file using the closest template from `templates/`.
+If you find something worth proposing, create or suggest the smallest set of
+files needed to preserve the checkable progress, using the closest templates
+from `templates/`.
 
 If you do not find something worth proposing, report the most useful next task instead.

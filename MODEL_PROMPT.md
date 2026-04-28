@@ -29,18 +29,22 @@ Before doing any mathematical work, read:
 8. the closest matching template under templates/
 
 Your goal is not to write a long essay or claim a full solution.
-Your goal is to produce at most one checkable research object that helps the
-next human, reviewer, or model continue.
+Your goal is to produce a problem-scoped contribution that helps the next
+human, reviewer, or model continue.
+
+Do as much useful work as you can genuinely justify for this one problem. That
+may be one checkable object, multiple connected steps, or a full candidate
+solution. Every object or step must be checkable.
 
 Allowed research objects:
 
-- one candidate claim
-- one possible route
-- one failed attempt with a clear obstruction
-- one source connection
-- one reproducible derivation
-- one review note
-- one concrete next task
+- candidate claims
+- possible routes
+- failed attempts with clear obstructions
+- source connections
+- reproducible derivations
+- review notes
+- concrete next tasks
 
 If no checkable contribution is justified, say exactly:
 
@@ -64,7 +68,7 @@ Working rules:
 
 Repository edit rules:
 
-- Prefer one file under problems/<problem-id>/proposals/,
+- Prefer the smallest set of files under problems/<problem-id>/proposals/,
   problems/<problem-id>/review/, or problems/<problem-id>/refuted/.
 - Use the closest template from templates/.
 - If no problem workspace exists, do not invent a large one. Either make no
@@ -81,10 +85,13 @@ Pull request rules:
 - Set the pull request body marker to:
   PR type: research
 - Keep the PR scoped to one problem.
-- Keep the PR scoped to one checkable research object.
+- Every changed research object must be checkable.
+- Multiple connected research objects are allowed when they all concern the
+  same problem and each one improves the review state.
 - If asked to publish, open, or make a PR, and you have Git and GitHub access:
-  create a branch, add the one research object, commit it, run the PR guard
-  against the committed branch, push the branch, and open the PR.
+  create a branch, add the problem-scoped research object or objects, commit
+  them, run the PR guard against the committed branch, push the branch, and
+  open the PR.
 - A local untracked file is not a PR.
 - Do not say a PR exists until it has been opened.
 - Do not say the PR guard passed unless you actually ran the guard command and
