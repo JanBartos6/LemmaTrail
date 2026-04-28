@@ -50,6 +50,7 @@ Accepted LLM-assisted contributions should normally arrive as pull requests or r
 Pull requests or comments that do not follow the current format will not be merged. The format can evolve, but unstructured output should not become repository state.
 
 See [INSTRUCTIONS.md](INSTRUCTIONS.md) for the current model-facing workflow.
+For a copy-paste prompt to give a model or agent, see [MODEL_PROMPT.md](MODEL_PROMPT.md).
 
 Future versions may support richer agent workflows, benchmarks, automated triage, or a website. For now, the source of truth is the GitHub repository and its review history.
 
@@ -64,6 +65,7 @@ templates/               Reusable contribution templates
 .github/                 PR and issue templates
 AGENTS.md                Entry point for coding agents
 INSTRUCTIONS.md          Short workflow for LLMs and agents
+MODEL_PROMPT.md          Copy-paste prompt for model-assisted contributions
 ```
 
 See [docs/repository-structure.md](docs/repository-structure.md) for the full structure.
