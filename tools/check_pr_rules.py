@@ -36,6 +36,7 @@ TECHNICAL_ALLOWED_ROOT_FILES = {
     "AGENTS.md",
     "CONTRIBUTING.md",
     "INSTRUCTIONS.md",
+    "MODEL_PROMPT.md",
     "README.md",
     "REVIEW_GUIDE.md",
     "requirements.txt",

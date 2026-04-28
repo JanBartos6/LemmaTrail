@@ -63,6 +63,7 @@ A technical PR may edit infrastructure paths:
 - `templates/**`
 - `catalog/**`
 - root policy files such as `README.md`, `CONTRIBUTING.md`, and `INSTRUCTIONS.md`
+- root prompt files such as `MODEL_PROMPT.md`
 - `problems/_template/**`
 
 Technical PRs may not edit active problem workspaces under
