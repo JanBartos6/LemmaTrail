@@ -68,6 +68,7 @@ INSTRUCTIONS.md          Short workflow for LLMs and agents
 
 See [docs/repository-structure.md](docs/repository-structure.md) for the full structure.
 See [docs/import-pipeline.md](docs/import-pipeline.md) before adding any scraper or source adapter.
+See [docs/pr-guard.md](docs/pr-guard.md) for pull request shape rules.
 
 ## Current Scope
 

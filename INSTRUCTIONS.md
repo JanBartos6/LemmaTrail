@@ -63,6 +63,27 @@ If you cannot produce that, say that no repository contribution is justified.
 
 A useful PR should be small. It should add one checkable research object or one clear framework improvement.
 
+Set the pull request body marker to either:
+
+```text
+PR type: research
+```
+
+or:
+
+```text
+PR type: technical
+```
+
+If asked to "attempt" or "solve" a hard problem, treat that as permission to
+make one small, reviewable research contribution. Do not create a full problem
+workspace, full theory, or final proof unless the user explicitly asks for that
+scope.
+
+Model-generated material is not reviewed by virtue of being generated. Do not
+set `llm_reviewed: true`, `human_reviewed: true`, or `formal_reviewed: true`
+on your own contribution.
+
 Do not submit:
 
 - raw chat transcripts
@@ -79,4 +100,3 @@ Use `llm_reviewed: true` only to mean that an LLM reviewed the item. It does not
 If you find something worth proposing, create or suggest one file using the closest template from `templates/`.
 
 If you do not find something worth proposing, report the most useful next task instead.
-

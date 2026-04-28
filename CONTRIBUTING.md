@@ -71,6 +71,15 @@ Do not submit:
 
 ## Pull Request Checklist
 
+Before opening a PR, leave the `PR type:` marker in the pull request body.
+
+- Use `PR type: research` for problem proposals, reviews, failures, claims, routes, and tasks.
+- Use `PR type: technical` for tooling, documentation, templates, catalog imports, CI, or repository policy.
+
+Research PRs are intentionally strict: one PR should normally add or edit one
+checkable research object. Technical PRs may edit infrastructure, but they must
+not edit active problem workspaces.
+
 Before opening a PR:
 
 - [ ] The contribution has a stable ID.
