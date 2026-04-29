@@ -4,8 +4,12 @@ type: review
 review_target: TARGET-ID
 reviewer_type: llm
 reviewer: unknown
-status: needs-human
+status: needs-review
 created: YYYY-MM-DD
+ai_assistance:
+  used: false
+  model: none
+  role: none
 ---
 
 # Review Summary
@@ -28,4 +32,3 @@ Short result of the review.
 # Recommendation
 
 Use one: pass-to-human, needs-revision, likely-duplicate, has-gap, reject.
-

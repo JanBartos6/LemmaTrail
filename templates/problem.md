@@ -1,9 +1,13 @@
 ---
 id: PROBLEM-ID
 title: Problem Title
-status: active
+status: proposed
 area: area-name
 source_ids: []
+ai_assistance:
+  used: false
+  model: none
+  role: none
 review:
   llm_reviewed: false
   human_reviewed: false
@@ -33,4 +37,3 @@ State what belongs in this workspace and what does not.
 # Notes
 
 Keep this short. Detailed work belongs in claims, routes, attempts, failures, or tasks.
-

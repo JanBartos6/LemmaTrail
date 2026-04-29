@@ -22,6 +22,18 @@ TECHNICAL_LABELS = {"type: technical", "technical"}
 RESEARCH_LABELS = {"type: research", "research"}
 OVERRIDE_LABELS = {"maintainer-override", "pr-guard: override"}
 
+ALLOWED_STATUSES = {
+    "idea",
+    "proposed",
+    "triaged",
+    "needs-review",
+    "verified",
+    "formally-verified",
+    "refuted",
+    "blocked",
+    "superseded",
+}
+
 RESEARCH_OBJECT_RE = re.compile(
     r"^problems/[^/]+/(problem\.md|tasks\.md|proposals/.+\.md|review/.+\.md|refuted/.+\.md)$"
 )
@@ -280,6 +292,23 @@ def has_frontmatter(text: str) -> bool:
     return "\n---\n" in text[4:]
 
 
+def frontmatter_block(text: str) -> str:
+    if not text.startswith("---\n"):
+        return ""
+    end = text.find("\n---\n", 4)
+    if end == -1:
+        return ""
+    return text[4:end]
+
+
+def frontmatter_value(text: str, key: str) -> str | None:
+    frontmatter = frontmatter_block(text)
+    match = re.search(rf"(?m)^\s*{re.escape(key)}\s*:\s*([^#\s]+)", frontmatter)
+    if not match:
+        return None
+    return match.group(1).strip().strip("\"'")
+
+
 def validate_research_object(path: str, text: str) -> list[str]:
     errors: list[str] = []
     if not has_frontmatter(text):
@@ -288,6 +317,16 @@ def validate_research_object(path: str, text: str) -> list[str]:
     for required in ("id:", "status:"):
         if required not in text:
             errors.append(f"{path}: missing `{required}` in frontmatter.")
+
+    frontmatter = frontmatter_block(text)
+    if "ai_assistance:" not in frontmatter:
+        errors.append(f"{path}: missing `ai_assistance:` in frontmatter.")
+
+    status = frontmatter_value(text, "status")
+    if status and status not in ALLOWED_STATUSES:
+        errors.append(
+            f"{path}: status `{status}` is not allowed; use docs/status-levels.md."
+        )
 
     if "/proposals/" in path or "/refuted/" in path:
         if "type:" not in text:
