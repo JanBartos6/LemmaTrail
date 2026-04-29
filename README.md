@@ -22,6 +22,12 @@ This repository is currently `v0.1-alpha`.
 
 The structure is expected to change as the project learns what is useful. The current files are working rules and guardrails, not final governance. Contributions that improve the framework itself are welcome, but changes should stay small, explicit, and easy to review.
 
+## License
+
+Magent uses a split license: code and tooling are MIT licensed, while original
+research content and documentation are licensed under CC BY 4.0. See
+[LICENSE.md](LICENSE.md).
+
 ## Core Rule
 
 Every contribution must make the next human, reviewer, or model better positioned to continue.

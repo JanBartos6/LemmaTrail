@@ -62,7 +62,7 @@ A technical PR may edit infrastructure paths:
 - `docs/**`
 - `templates/**`
 - `catalog/**`
-- root policy files such as `README.md`, `CONTRIBUTING.md`, and `INSTRUCTIONS.md`
+- root policy files such as `README.md`, `CONTRIBUTING.md`, `INSTRUCTIONS.md`, and license files
 - root prompt files such as `MODEL_PROMPT.md`
 - `problems/_template/**`
 
