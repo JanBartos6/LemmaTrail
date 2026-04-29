@@ -1,11 +1,15 @@
 ---
 id: topp-problem-55
 title: Pallet Loading
-status: active
+status: proposed
 area: packing
 source_ids:
   - topp-p55
   - edemaine-topp-p000055
+ai_assistance:
+  used: true
+  model: OpenAI Codex GPT-5
+  role: workspace-initialization
 review:
   llm_reviewed: false
   human_reviewed: false

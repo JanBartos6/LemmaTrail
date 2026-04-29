@@ -6,6 +6,10 @@ depends_on:
   - topp-problem-55
 source_ids:
   - topp-p55
+ai_assistance:
+  used: true
+  model: OpenAI Codex GPT-5
+  role: proposed-route
 review:
   llm_reviewed: false
   human_reviewed: false
