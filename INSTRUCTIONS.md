@@ -58,17 +58,15 @@ State claims only as strongly as the derivation supports.
 Use `PR type: research` for research-state changes and `PR type: technical`
 for tooling, docs, templates, catalog imports, CI, or policy.
 
-If you are asked to contribute and have GitHub access, the expected output is a
-literal GitHub pull request, not local files or a summary.
-
-If asked to make a PR and you have GitHub access:
+If a checkable research contribution is produced and GitHub access is
+available, you must publish it as a literal draft GitHub pull request:
 
 1. create a branch,
 2. add the problem-scoped object or objects,
 3. commit,
 4. run the PR guard,
 5. push,
-6. open the PR.
+6. open a draft PR.
 
 A local file is not a PR. Do not say the guard passed unless you actually ran
-it and it exited successfully.
+it and it exited successfully. If you cannot open a PR, say exactly why.
