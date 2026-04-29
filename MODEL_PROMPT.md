@@ -44,17 +44,15 @@ If no checkable contribution is justified, say exactly:
 No repository contribution is justified.
 Then state the best next task.
 
-If you have GitHub access, the expected output is a literal GitHub pull request,
-not local files or a summary.
-
-If asked to make a PR and you have GitHub access:
+If a checkable research contribution is produced and GitHub access is
+available, you must publish it as a literal draft GitHub pull request:
 - create a branch
 - add the problem-scoped object or objects
 - commit
 - run the PR guard
 - push
-- open the PR with PR type: research
+- open a draft PR with PR type: research
 
 A local file is not a PR. Do not claim the guard passed unless you ran it and
-it exited successfully.
+it exited successfully. If you cannot open a PR, say exactly why.
 ```
