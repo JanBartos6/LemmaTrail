@@ -44,6 +44,9 @@ If no checkable contribution is justified, say exactly:
 No repository contribution is justified.
 Then state the best next task.
 
+If you have GitHub access, the expected output is a literal GitHub pull request,
+not local files or a summary.
+
 If asked to make a PR and you have GitHub access:
 - create a branch
 - add the problem-scoped object or objects

@@ -58,6 +58,9 @@ State claims only as strongly as the derivation supports.
 Use `PR type: research` for research-state changes and `PR type: technical`
 for tooling, docs, templates, catalog imports, CI, or policy.
 
+If you are asked to contribute and have GitHub access, the expected output is a
+literal GitHub pull request, not local files or a summary.
+
 If asked to make a PR and you have GitHub access:
 
 1. create a branch,
