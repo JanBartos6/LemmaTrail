@@ -76,6 +76,8 @@ Unless a maintainer override label is present, the guard blocks:
 - binary/blob files such as PDFs, images, videos, archives, Word files, and spreadsheets
 - raw chat transcript markers such as `User:` or `Assistant:`
 - added `llm_reviewed: true`, `human_reviewed: true`, or `formal_reviewed: true`
+- research objects missing `ai_assistance:` frontmatter
+- research objects using statuses outside `docs/status-levels.md`
 - oversized files
 
 These checks are intentionally conservative. If a valid PR needs an exception,

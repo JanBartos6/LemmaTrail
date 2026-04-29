@@ -87,7 +87,7 @@ Before opening a PR:
 - [ ] The status is one of the allowed statuses.
 - [ ] Every dependency is listed.
 - [ ] Every source is listed, or the derivation is reproducible.
-- [ ] Any AI assistance is disclosed.
+- [ ] AI assistance is disclosed in every research object.
 - [ ] The gap or weakness is stated.
 - [ ] The next continuation point is concrete.
 

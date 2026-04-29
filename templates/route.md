@@ -4,6 +4,10 @@ type: route
 status: proposed
 depends_on: []
 source_ids: []
+ai_assistance:
+  used: false
+  model: none
+  role: none
 review:
   llm_reviewed: false
   human_reviewed: false
@@ -33,4 +37,3 @@ One short paragraph only.
 # Next Step
 
 The smallest useful continuation.
-

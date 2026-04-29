@@ -1,9 +1,13 @@
 ---
 id: TEMPLATE
 title: Template Problem
-status: draft
+status: proposed
 area: unknown
 source_ids: []
+ai_assistance:
+  used: false
+  model: none
+  role: none
 review:
   llm_reviewed: false
   human_reviewed: false
@@ -25,4 +29,3 @@ State what belongs in this workspace.
 # Routes
 
 - Add route IDs after they exist.
-

@@ -29,7 +29,7 @@ object or objects added. Keep the PR scoped to one problem.
 - [ ] No raw transcript is included.
 - [ ] Text follows `docs/text-policy.md`.
 
-## Review Needed
+## Review Requested
 
 - [ ] LLM triage
 - [ ] Human mathematical review

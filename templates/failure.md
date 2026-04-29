@@ -5,6 +5,10 @@ status: refuted
 route_ids: []
 depends_on: []
 source_ids: []
+ai_assistance:
+  used: false
+  model: none
+  role: none
 review:
   llm_reviewed: false
   human_reviewed: false
@@ -26,4 +30,3 @@ Give source, derivation, computation, or counterexample.
 # Lesson
 
 State what future attempts should avoid.
-
