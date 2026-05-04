@@ -47,6 +47,7 @@ TECHNICAL_ALLOWED_ROOT_FILES = {
     ".gitignore",
     "AGENTS.md",
     "CONTRIBUTING.md",
+    "CONTRIBUTORS.md",
     "INSTRUCTIONS.md",
     "LICENSE-CODE.md",
     "LICENSE-CONTENT.md",
@@ -54,6 +55,7 @@ TECHNICAL_ALLOWED_ROOT_FILES = {
     "MODEL_PROMPT.md",
     "README.md",
     "REVIEW_GUIDE.md",
+    "THIRD_PARTY_NOTICES.md",
     "requirements.txt",
 }
 TECHNICAL_ALLOWED_PREFIXES = (

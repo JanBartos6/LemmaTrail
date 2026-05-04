@@ -6,6 +6,13 @@ reviewer_type: llm
 reviewer: unknown
 status: needs-review
 created: YYYY-MM-DD
+authors:
+  - name: unknown
+    github: null
+    role: reviewer
+contributors: []
+reviewers: []
+curators: []
 ai_assistance:
   used: false
   model: none

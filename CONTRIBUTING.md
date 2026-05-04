@@ -55,6 +55,18 @@ Do not include raw model transcripts. Distill the useful mathematical state into
 
 LLMs and agents should also follow [INSTRUCTIONS.md](INSTRUCTIONS.md).
 
+## Credit And Recognition
+
+Git history records commits. Research objects should also credit mathematical
+authors, reviewers, source-finders, and curators in frontmatter when practical.
+
+Maintainers may curate an issue, comment, or model output into template form,
+but should preserve visible human credit for the useful contribution.
+
+AI tools must be disclosed in `ai_assistance`, but they are tools, not authors.
+
+Do not add reputation-seeking edits that do not improve research state.
+
 ## Text Policy
 
 Text is allowed only when it serves verification or continuation. See [docs/text-policy.md](docs/text-policy.md).
