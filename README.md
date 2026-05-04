@@ -32,9 +32,9 @@ The structure is expected to change as the project learns what is useful. The cu
 
 ## License
 
-LemmaTrail uses a split license: code and tooling are MIT licensed, while original
-research content and documentation are licensed under CC BY 4.0. See
-[LICENSE.md](LICENSE.md). External sources keep their own terms; see
+Original LemmaTrail code, documentation, templates, and research objects are
+licensed under the MIT License. See [LICENSE.md](LICENSE.md). External sources
+and imported metadata keep their own terms; see
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Credit
