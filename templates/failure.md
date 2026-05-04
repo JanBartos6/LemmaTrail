@@ -26,7 +26,7 @@ review:
 
 State what failed.
 
-# Obstruction
+# Known Obstructions
 
 Explain the exact obstruction, counterexample, invalid inference, or hidden assumption.
 
@@ -37,3 +37,7 @@ Give source, derivation, computation, or counterexample.
 # Lesson
 
 State what future attempts should avoid.
+
+# Next Step
+
+State the smallest useful continuation after this obstruction.
