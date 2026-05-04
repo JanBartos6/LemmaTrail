@@ -1,0 +1,35 @@
+name: Failed route
+description: Record a route or claim that appears blocked or refuted.
+title: "Failed route: "
+labels:
+  - research
+  - needs-review
+body:
+  - type: input
+    id: problem-id
+    attributes:
+      label: Problem ID
+      description: Use the catalog or workspace ID if known.
+    validations:
+      required: true
+  - type: textarea
+    id: failed-route
+    attributes:
+      label: Failed route or claim
+      description: State what was tried or what claim appears to fail.
+    validations:
+      required: true
+  - type: textarea
+    id: obstruction
+    attributes:
+      label: Known obstruction
+      description: Explain the exact obstruction, counterexample, or hidden assumption.
+    validations:
+      required: true
+  - type: textarea
+    id: next-step
+    attributes:
+      label: Next step
+      description: State what future attempts should check next.
+    validations:
+      required: true

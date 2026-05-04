@@ -340,8 +340,12 @@ def validate_research_object(path: str, text: str) -> list[str]:
             errors.append(f"{path}: missing `type:` in frontmatter.")
         if "source_ids:" not in text and "depends_on:" not in text:
             errors.append(f"{path}: missing `source_ids:` or `depends_on:`.")
-        if "# Gap" not in text and "# Known Obstructions" not in text:
-            errors.append(f"{path}: missing `# Gap` or `# Known Obstructions`.")
+        has_gap = "# Gap" in text
+        has_obstruction = "# Known Obstructions" in text or "# Obstruction" in text
+        if not has_gap and not has_obstruction:
+            errors.append(
+                f"{path}: missing `# Gap`, `# Known Obstructions`, or `# Obstruction`."
+            )
         if "# Next Step" not in text:
             errors.append(f"{path}: missing `# Next Step`.")
 

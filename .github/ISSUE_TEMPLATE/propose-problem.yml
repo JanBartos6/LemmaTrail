@@ -2,8 +2,8 @@ name: Propose a problem
 description: Suggest a mathematical problem workspace for curation.
 title: "Problem proposal: "
 labels:
-  - type/problem
-  - status/needs-review
+  - research
+  - needs-review
 body:
   - type: input
     id: problem-name
@@ -33,4 +33,3 @@ body:
       description: List known major approaches, if any.
     validations:
       required: false
-

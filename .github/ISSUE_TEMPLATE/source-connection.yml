@@ -1,0 +1,35 @@
+name: Source connection
+description: Share a source that should be linked to a problem workspace.
+title: "Source connection: "
+labels:
+  - research
+  - needs-review
+body:
+  - type: input
+    id: problem-id
+    attributes:
+      label: Problem ID
+      description: Use the catalog or workspace ID if known.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Link or cite the source precisely.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance
+      description: State exactly what the source supports or corrects.
+    validations:
+      required: true
+  - type: textarea
+    id: credit
+    attributes:
+      label: Credit
+      description: Name who found or checked this source, if different from the submitter.
+    validations:
+      required: false
