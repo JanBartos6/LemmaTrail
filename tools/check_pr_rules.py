@@ -49,14 +49,16 @@ TECHNICAL_ALLOWED_ROOT_FILES = {
     "CONTRIBUTING.md",
     "CONTRIBUTORS.md",
     "INSTRUCTIONS.md",
-    "LICENSE-CODE.md",
-    "LICENSE-CONTENT.md",
     "LICENSE.md",
     "MODEL_PROMPT.md",
     "README.md",
     "REVIEW_GUIDE.md",
     "THIRD_PARTY_NOTICES.md",
     "requirements.txt",
+}
+TECHNICAL_DELETABLE_ROOT_FILES = {
+    "LICENSE-CODE.md",
+    "LICENSE-CONTENT.md",
 }
 TECHNICAL_ALLOWED_PREFIXES = (
     ".github/",
@@ -442,6 +444,8 @@ def validate_technical_pr(files: list[ChangedFile]) -> list[str]:
     errors: list[str] = []
     for item in files:
         path = item.path
+        if item.status == "D" and path in TECHNICAL_DELETABLE_ROOT_FILES:
+            continue
         if path.startswith("problems/") and not path.startswith("problems/_template/"):
             errors.append(f"{path}: technical PRs may not edit problem workspaces.")
             continue
