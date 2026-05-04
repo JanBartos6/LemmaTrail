@@ -6,6 +6,13 @@ evidence_type: derivation
 route_ids: []
 depends_on: []
 source_ids: []
+authors:
+  - name: unknown
+    github: null
+    role: proposer
+contributors: []
+reviewers: []
+curators: []
 ai_assistance:
   used: false
   model: none
@@ -39,4 +46,3 @@ State the exact weakness, missing proof step, or unchecked assumption.
 # Next Step
 
 State the smallest useful continuation.
-
