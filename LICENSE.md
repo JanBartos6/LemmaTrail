@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## LemmaTrail License Scope
-
-For LemmaTrail, original project code, documentation, templates, catalog metadata,
-review files, and research objects are licensed under the MIT License above.
-
-External source material, imported metadata, and third-party references keep
-their own terms. See `THIRD_PARTY_NOTICES.md`.
