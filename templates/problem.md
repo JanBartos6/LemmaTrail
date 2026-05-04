@@ -4,6 +4,13 @@ title: Problem Title
 status: proposed
 area: area-name
 source_ids: []
+authors:
+  - name: unknown
+    github: null
+    role: proposer
+contributors: []
+reviewers: []
+curators: []
 ai_assistance:
   used: false
   model: none
