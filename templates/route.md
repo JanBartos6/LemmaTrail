@@ -4,6 +4,13 @@ type: route
 status: proposed
 depends_on: []
 source_ids: []
+authors:
+  - name: unknown
+    github: null
+    role: proposer
+contributors: []
+reviewers: []
+curators: []
 ai_assistance:
   used: false
   model: none
