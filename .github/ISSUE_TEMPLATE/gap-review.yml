@@ -1,0 +1,49 @@
+name: Gap review
+description: Report a gap, ambiguity, or review concern in a research object.
+title: "Gap review: "
+labels:
+  - research
+  - needs-review
+body:
+  - type: input
+    id: object-id
+    attributes:
+      label: Object ID or path
+      description: Identify the claim, route, attempt, review, or file.
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Gap
+      description: State the exact unsupported step, ambiguity, or invalid inference.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Give a source, derivation, counterexample, or reproducible check.
+    validations:
+      required: true
+  - type: textarea
+    id: next-step
+    attributes:
+      label: Next step
+      description: Suggest the smallest useful correction or follow-up.
+    validations:
+      required: false
+  - type: textarea
+    id: credit
+    attributes:
+      label: Credit
+      description: Name people who found, checked, or helped formulate this review.
+    validations:
+      required: false
+  - type: textarea
+    id: ai-assistance
+    attributes:
+      label: AI assistance
+      description: Say none, or list the model/tool used and its role.
+    validations:
+      required: true

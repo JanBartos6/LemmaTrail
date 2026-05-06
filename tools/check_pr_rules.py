@@ -47,11 +47,18 @@ TECHNICAL_ALLOWED_ROOT_FILES = {
     ".gitignore",
     "AGENTS.md",
     "CONTRIBUTING.md",
+    "CONTRIBUTORS.md",
     "INSTRUCTIONS.md",
+    "LICENSE.md",
     "MODEL_PROMPT.md",
     "README.md",
     "REVIEW_GUIDE.md",
+    "THIRD_PARTY_NOTICES.md",
     "requirements.txt",
+}
+TECHNICAL_DELETABLE_ROOT_FILES = {
+    "LICENSE-CODE.md",
+    "LICENSE-CONTENT.md",
 }
 TECHNICAL_ALLOWED_PREFIXES = (
     ".github/",
@@ -333,8 +340,12 @@ def validate_research_object(path: str, text: str) -> list[str]:
             errors.append(f"{path}: missing `type:` in frontmatter.")
         if "source_ids:" not in text and "depends_on:" not in text:
             errors.append(f"{path}: missing `source_ids:` or `depends_on:`.")
-        if "# Gap" not in text and "# Known Obstructions" not in text:
-            errors.append(f"{path}: missing `# Gap` or `# Known Obstructions`.")
+        has_gap = "# Gap" in text
+        has_obstruction = "# Known Obstructions" in text or "# Obstruction" in text
+        if not has_gap and not has_obstruction:
+            errors.append(
+                f"{path}: missing `# Gap`, `# Known Obstructions`, or `# Obstruction`."
+            )
         if "# Next Step" not in text:
             errors.append(f"{path}: missing `# Next Step`.")
 
@@ -437,6 +448,8 @@ def validate_technical_pr(files: list[ChangedFile]) -> list[str]:
     errors: list[str] = []
     for item in files:
         path = item.path
+        if item.status == "D" and path in TECHNICAL_DELETABLE_ROOT_FILES:
+            continue
         if path.startswith("problems/") and not path.startswith("problems/_template/"):
             errors.append(f"{path}: technical PRs may not edit problem workspaces.")
             continue

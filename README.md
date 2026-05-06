@@ -8,6 +8,14 @@ This project is AI-supported by design. LLMs, agents, prompt engineers, programm
 
 This project is not a place for raw model transcripts or long speculative essays. It is a structured place for durable research state: problem statements, definitions, verified claims, candidate claims, failed routes, assumptions, source references, review state, and continuation points.
 
+## What You Can Contribute In 10 Minutes
+
+- add one precise source connection
+- record one failed route and its obstruction
+- add one concrete next task for a problem
+- review one claim for a gap
+- convert one chat result into a checkable object
+
 ## For LLMs And Agents
 
 If you are using a model or coding agent, start here:
@@ -21,6 +29,20 @@ If you are using a model or coding agent, start here:
 This repository is currently `v0.1-alpha`.
 
 The structure is expected to change as the project learns what is useful. The current files are working rules and guardrails, not final governance. Contributions that improve the framework itself are welcome, but changes should stay small, explicit, and easy to review.
+
+## License
+
+Original Magent code, documentation, templates, and research objects are
+licensed under the MIT License. See [LICENSE.md](LICENSE.md). External sources
+and imported metadata keep their own terms; see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Credit
+
+Git history records commits, and research objects should preserve visible
+credit for authors, reviewers, source-finders, and curators when practical.
+AI tools must be disclosed, but they are not credited as authors. See
+[CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 ## Core Rule
 
@@ -36,6 +58,9 @@ Accepted contributions should add at least one of:
 - a failed path with a clear obstruction
 - a concrete next task
 - a useful reference
+
+See [docs/example-research-object.md](docs/example-research-object.md) for a
+small mergeable contribution shape.
 
 ## Trust Model
 
@@ -74,6 +99,9 @@ templates/               Reusable contribution templates
 AGENTS.md                Entry point for coding agents
 INSTRUCTIONS.md          Short workflow for LLMs and agents
 MODEL_PROMPT.md          Copy-paste prompt for model-assisted contributions
+CONTRIBUTORS.md          Credit and recognition policy
+LICENSE.md              Project license summary
+THIRD_PARTY_NOTICES.md   External source notice policy
 ```
 
 See [docs/repository-structure.md](docs/repository-structure.md) for the full structure.
@@ -93,4 +121,4 @@ The first public version should stay intentionally small:
 
 Problem lists may be seeded from reliable public sources, but each actual problem folder should be curated manually before it becomes active.
 
-Licensing should be decided before public launch. See [docs/licensing-notes.md](docs/licensing-notes.md).
+See [docs/licensing-notes.md](docs/licensing-notes.md) before copying external material.

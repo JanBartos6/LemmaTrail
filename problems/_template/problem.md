@@ -4,6 +4,13 @@ title: Template Problem
 status: proposed
 area: unknown
 source_ids: []
+authors:
+  - name: unknown
+    github: null
+    role: proposer
+contributors: []
+reviewers: []
+curators: []
 ai_assistance:
   used: false
   model: none

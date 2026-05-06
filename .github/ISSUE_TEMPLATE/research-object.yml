@@ -1,0 +1,62 @@
+name: Research object draft
+description: Submit a draft claim, route, attempt, failure, review, or task for curation.
+title: "Research object draft: "
+labels:
+  - research
+  - needs-review
+body:
+  - type: input
+    id: problem-id
+    attributes:
+      label: Problem ID
+      description: Use the catalog or workspace ID if known.
+    validations:
+      required: true
+  - type: dropdown
+    id: object-type
+    attributes:
+      label: Object type
+      options:
+        - claim
+        - route
+        - attempt
+        - failure
+        - review
+        - task
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: Statement or objective
+      description: State the checkable object as precisely as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: support
+    attributes:
+      label: Source or derivation
+      description: Cite sources or give reproducible reasoning.
+    validations:
+      required: true
+  - type: textarea
+    id: gap-next-step
+    attributes:
+      label: Gap and next step
+      description: State the weakness and the smallest useful continuation.
+    validations:
+      required: true
+  - type: textarea
+    id: credit
+    attributes:
+      label: Credit
+      description: Name people who proposed, checked, reviewed, or curated this object.
+    validations:
+      required: false
+  - type: textarea
+    id: ai-assistance
+    attributes:
+      label: AI assistance
+      description: Say none, or list the model/tool used and its role.
+    validations:
+      required: true

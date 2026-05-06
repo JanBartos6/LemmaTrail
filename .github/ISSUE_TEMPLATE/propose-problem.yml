@@ -2,8 +2,8 @@ name: Propose a problem
 description: Suggest a mathematical problem workspace for curation.
 title: "Problem proposal: "
 labels:
-  - type/problem
-  - status/needs-review
+  - research
+  - needs-review
 body:
   - type: input
     id: problem-name
@@ -33,4 +33,17 @@ body:
       description: List known major approaches, if any.
     validations:
       required: false
-
+  - type: textarea
+    id: credit
+    attributes:
+      label: Credit
+      description: Name people who found, checked, or helped formulate this proposal.
+    validations:
+      required: false
+  - type: textarea
+    id: ai-assistance
+    attributes:
+      label: AI assistance
+      description: Say none, or list the model/tool used and its role.
+    validations:
+      required: true
