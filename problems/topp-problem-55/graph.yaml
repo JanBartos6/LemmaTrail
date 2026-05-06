@@ -1,0 +1,15 @@
+problem_id: topp-problem-55
+nodes:
+  - id: topp-problem-55
+    type: problem
+    path: problems/topp-problem-55/problem.md
+  - id: topp-problem-55-c0001
+    type: claim
+    path: problems/topp-problem-55/proposals/claims/topp-problem-55-c0001-unary-n-in-np.md
+  - id: topp-problem-55-a0001
+    type: attempt
+    path: problems/topp-problem-55/proposals/attempts/topp-problem-55-a0001-explicit-certificate-scale-gap.md
+edges:
+  - from: topp-problem-55-a0001
+    to: topp-problem-55-c0001
+    kind: depends_on
