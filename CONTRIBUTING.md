@@ -1,8 +1,17 @@
 # Contributing
 
-LemmaTrail is designed to stay readable for mathematicians and usable by models. Human and AI-assisted contributions are welcome only when they improve the research state.
+LemmaTrail is designed to stay readable for mathematicians and usable by
+models. Human and AI-assisted contributions are welcome when they leave behind
+a checkable object that helps the next contributor continue.
 
 This is a `v0.1-alpha` project. The rules below are current guardrails, not final governance. They exist to keep the repository reviewable while the format evolves.
+
+Durable repository changes happen through pull requests. Issues and comments
+are welcome for proposals, questions, and feedback, but research state enters
+the repository only after it is converted into a template-based file and merged
+through a PR.
+
+This applies to both humans and LLMs.
 
 ## Contribution Types
 
@@ -96,11 +105,11 @@ infrastructure, but they must not edit active problem workspaces.
 Before opening a PR:
 
 - [ ] The contribution has a stable ID.
-- [ ] The status is one of the allowed statuses.
-- [ ] Every dependency is listed.
+- [ ] The status is one of the allowed statuses in [docs/status-levels.md](docs/status-levels.md).
+- [ ] Dependencies are listed, or the object explicitly says there are none.
 - [ ] Every source is listed, or the derivation is reproducible.
 - [ ] AI assistance is disclosed in every research object.
-- [ ] The gap or weakness is stated.
+- [ ] The gap, weakness, or limitation is stated when applicable.
 - [ ] The next continuation point is concrete.
 
 For agents with repository access, a PR is not complete until the branch is
