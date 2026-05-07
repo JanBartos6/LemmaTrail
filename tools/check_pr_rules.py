@@ -22,7 +22,6 @@ TECHNICAL_LABELS = {"type: technical", "technical"}
 RESEARCH_LABELS = {"type: research", "research"}
 OVERRIDE_LABELS = {"maintainer-override", "pr-guard: override"}
 WORKSPACE_TEMPLATE_PREFIX = "problems/_workspace-template/"
-OLD_WORKSPACE_TEMPLATE_PREFIX = "problems/_template/"
 
 ALLOWED_STATUSES = {
     "idea",
@@ -451,8 +450,6 @@ def validate_technical_pr(files: list[ChangedFile]) -> list[str]:
     for item in files:
         path = item.path
         if item.status == "D" and path in TECHNICAL_DELETABLE_ROOT_FILES:
-            continue
-        if item.status == "D" and path.startswith(OLD_WORKSPACE_TEMPLATE_PREFIX):
             continue
         if path.startswith("problems/") and not path.startswith(WORKSPACE_TEMPLATE_PREFIX):
             errors.append(f"{path}: technical PRs may not edit problem workspaces.")
