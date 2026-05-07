@@ -58,6 +58,5 @@ Wikipedia is useful for finding candidate problems and references, but each prob
 
 Do not bulk-download problem text into `problems/`.
 
-Use `catalog/curated-candidates.yaml` to track manually curated candidates.
-Create a problem folder only after someone is ready to curate sources,
-notation, and scope.
+Use `catalog/imports/` to discover candidate problems. Create a problem folder
+only after someone is ready to curate sources, notation, and scope.

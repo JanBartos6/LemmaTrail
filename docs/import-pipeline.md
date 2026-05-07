@@ -12,7 +12,6 @@ Importers may write to `catalog/`. They must not write directly to `problems/<pr
 external source
   -> catalog/source-registry.yaml
   -> catalog/imports/<source-id>/
-  -> catalog/curated-candidates.yaml
   -> human curation
   -> problems/<problem-id>/ problem workspace
   -> proposals/
@@ -24,10 +23,9 @@ external source
 
 Problem lists often mix statuses, levels of difficulty, outdated statements,
 and secondary descriptions. `catalog/source-registry.yaml` records source and
-provenance policy, `catalog/imports/` stores imported metadata, and
-`catalog/curated-candidates.yaml` stores manually curated candidates. Bulk
-importing them into active problem folders would make the repository look more
-authoritative than it is.
+provenance policy, and `catalog/imports/` stores imported metadata. Bulk
+importing records into active problem folders would make the repository look
+more authoritative than it is.
 
 ## Future Scraper Contract
 
