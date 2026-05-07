@@ -4,7 +4,6 @@ This directory contains compact YAML metadata for problem discovery.
 
 Current catalog data:
 
-- `source-registry.yaml`: source and provenance policy for imported or cited problem lists.
 - `imports/erdos-problems/problems.yaml`: unresolved Erdős problem records imported from the Apache-2.0 licensed `teorth/erdosproblems` source repository.
 - `imports/topp/problems.yaml`: TOPP problem metadata imported from the public `edemaine/topp` source repository.
 - `imports/aim-problem-lists/problem-lists.yaml`: AIM list-of-lists metadata. These are source lists, not individual problem records.

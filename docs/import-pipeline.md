@@ -10,7 +10,6 @@ Importers may write to `catalog/`. They must not write directly to `problems/<pr
 
 ```text
 external source
-  -> catalog/source-registry.yaml
   -> catalog/imports/<source-id>/
   -> human curation
   -> problems/<problem-id>/ problem workspace
@@ -22,8 +21,7 @@ external source
 ## Why
 
 Problem lists often mix statuses, levels of difficulty, outdated statements,
-and secondary descriptions. `catalog/source-registry.yaml` records source and
-provenance policy, and `catalog/imports/` stores imported metadata. Bulk
+and secondary descriptions. `catalog/imports/` stores imported metadata. Bulk
 importing records into active problem folders would make the repository look
 more authoritative than it is.
 
