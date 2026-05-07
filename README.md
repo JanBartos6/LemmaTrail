@@ -130,15 +130,16 @@ See [docs/pr-guard.md](docs/pr-guard.md) for pull request shape rules.
 
 ## Current Scope
 
-The first public version should stay intentionally small:
+LemmaTrail is still an alpha-stage repository. The structure, review process,
+templates, and contribution rules may change as people try the format and
+expose what works or does not work.
 
-- no website yet
-- no generated files
-- no raw chat logs
-- no automatic import into canonical problem files
-- no LLM-authored canonical claims
-- no bulk-created empty problem folders
+For now, the source of truth is the GitHub repository: problem workspaces, pull
+requests, reviews, and issue discussions.
 
-Problem lists may be seeded from reliable public sources, but each actual problem folder should be curated manually before it becomes active.
+If the project succeeds, the natural next step is a website or app that makes
+the same repository-backed research state easier to browse, with better LaTeX
+rendering, problem pages, contribution history, review status, and source
+trails for a broader audience.
 
 See [docs/licensing-notes.md](docs/licensing-notes.md) before copying external material.
