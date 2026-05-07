@@ -51,6 +51,19 @@ problems/<problem-id>/refuted/
 
 Do not move material into `canonical/` unless the PR is explicitly approved for that purpose.
 
+## Continuing Or Branching
+
+Continue an existing research object when the PR strengthens, corrects, or
+extends the same line of reasoning.
+
+Create a new research object when the PR starts an independent route, uses an
+incompatible assumption, or branches from an earlier step while ignoring later
+steps. In that case, list the original object in `depends_on` and state the
+branch point in the body.
+
+Use simple step anchors such as `Step A1`, `Step A2`, and `Step A3` when a
+claim or attempt may need later continuation.
+
 ## AI-Assisted Contributions
 
 AI assistance is allowed, but it must be disclosed in frontmatter:

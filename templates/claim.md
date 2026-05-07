@@ -45,11 +45,18 @@ Write one precise mathematical statement.
 
 # Derivation
 
-1. Formal line.
-   Short justification.
+## Step C1
 
-2. Formal line.
-   Short justification.
+Formal line. Short justification.
+
+## Step C2
+
+Formal line. Short justification.
+
+# Branch Point
+
+If this claim continues from an earlier object, state the exact object and
+step. If not applicable, write `none`.
 
 # Gap
 

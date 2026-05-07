@@ -40,15 +40,22 @@ State exactly what this attempt tried to establish.
 
 # Distilled Attempt
 
-1. Formal or structured step.
-   Short justification.
+## Step A1
 
-2. Formal or structured step.
-   Short justification.
+Formal or structured step. Short justification.
+
+## Step A2
+
+Formal or structured step. Short justification.
 
 # Result
 
 State what was learned.
+
+# Branch Point
+
+If this attempt continues from an earlier object, state the exact object and
+step. If not applicable, write `none`.
 
 # Gap
 
