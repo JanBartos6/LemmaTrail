@@ -74,13 +74,33 @@ status: needs-review
 
 The example above is not verified research state. It means an LLM review did not find an obvious issue, but a human still needs to check it.
 
+## How Contributions Become Repository State
+
+Durable contributions enter LemmaTrail through pull requests.
+
+Issues, comments, and external discussions are welcome for proposing ideas,
+asking questions, reporting gaps, or giving feedback. But if something should
+become part of the repository's research state, it must be converted into a
+checkable research object using the repository templates and merged through a
+pull request.
+
+This applies to both human and LLM-assisted contributions.
+
+Pull requests that do not follow the current format will not be merged. The
+format can evolve, but unstructured output should not become repository state.
+
 ## LLM And Agent Contributions
 
-LLM-generated work is welcome when it is useful, structured, and reviewable.
+LLM-assisted work is welcome when it is useful, structured, and reviewable.
 
-Accepted LLM-assisted contributions should normally arrive as pull requests or review comments using the repository templates. A model may propose a claim, route, failed attempt, source connection, derivation, or continuation point. It should not rewrite large parts of the repository, submit raw transcripts, or present unverified work as proven.
+A model may help propose a claim, route, failed attempt, source connection,
+derivation, review note, or continuation point. It should not rewrite large
+parts of the repository, submit raw transcripts, or present unverified work as
+proven.
 
-Pull requests or comments that do not follow the current format will not be merged. The format can evolve, but unstructured output should not become repository state.
+LLM-assisted contributions follow the same repository rules as human
+contributions: durable work must become a templated research object and enter
+through a pull request.
 
 See [INSTRUCTIONS.md](INSTRUCTIONS.md) for the current model-facing workflow.
 For a copy-paste prompt to give a model or agent, see [MODEL_PROMPT.md](MODEL_PROMPT.md).
