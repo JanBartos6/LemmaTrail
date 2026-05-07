@@ -1,3 +1,15 @@
+# Route Template
+
+Use this for a major approach or family of attempts. A route should orient
+future work; detailed derivations belong in claims or attempts.
+
+Copy the block below into:
+
+```text
+problems/<problem-id>/proposals/routes/<object-id>.md
+```
+
+```markdown
 ---
 id: PROBLEM-R0001
 type: route
@@ -43,4 +55,5 @@ One short paragraph only.
 
 # Next Step
 
-The smallest useful continuation.
+State the smallest useful continuation.
+```

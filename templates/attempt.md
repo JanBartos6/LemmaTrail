@@ -1,3 +1,15 @@
+# Attempt Template
+
+Use this for a distilled line of attack that produced useful research state,
+even if it did not resolve the problem.
+
+Copy the block below into:
+
+```text
+problems/<problem-id>/proposals/attempts/<object-id>.md
+```
+
+```markdown
 ---
 id: PROBLEM-A0001
 type: attempt
@@ -24,7 +36,7 @@ review:
 
 # Objective
 
-What this attempt tried to establish.
+State exactly what this attempt tried to establish.
 
 # Distilled Attempt
 
@@ -36,12 +48,13 @@ What this attempt tried to establish.
 
 # Result
 
-What was learned.
+State what was learned.
 
-# Gap Or Failure Point
+# Gap
 
-Where the attempt stops.
+State where the attempt stops, what is missing, or what remains unchecked.
 
 # Next Step
 
-The smallest useful continuation.
+State the smallest useful continuation.
+```
