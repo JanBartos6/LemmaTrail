@@ -10,6 +10,9 @@ Current catalog data:
 
 Catalog files are discovery metadata, not active problem workspaces. Active workspaces live under `problems/`.
 
+Imported catalog records are not reviewed problem statements. They are starting
+points for creating or finding active workspaces.
+
 Catalog records are meant to be read directly by humans, tools, and models. For the catalog layer, YAML is the preferred source format.
 
 Do not generate one Markdown file per catalog problem unless the repository later needs a separate presentation layer.

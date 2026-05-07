@@ -18,8 +18,9 @@ First read:
 - CONTRIBUTING.md
 - docs/pr-guard.md
 
-Before editing, resolve the problem to the exact catalog id under catalog/.
-Use that id for paths. Example: TOPP Problem 55 uses
+Before editing, resolve the problem to an existing problems/<problem-id>/
+workspace or an imported catalog record under catalog/imports/**. Use that
+stable id for paths. Example: TOPP Problem 55 uses
 problems/topp-problem-55/, not problems/55/.
 
 Goal:
