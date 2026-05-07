@@ -66,7 +66,7 @@ TECHNICAL_ALLOWED_PREFIXES = (
     "docs/",
     "templates/",
     "tools/",
-    "problems/_template/",
+    "problems/_workspace-template/",
 )
 
 BLOCKED_BINARY_EXTENSIONS = {
@@ -412,7 +412,7 @@ def validate_research_pr(files: list[ChangedFile], revision: str) -> list[str]:
     object_paths: list[str] = []
     for item in files:
         path = item.path
-        if path.startswith("problems/_template/"):
+        if path.startswith("problems/_workspace-template/"):
             errors.append(f"{path}: template changes belong in a technical PR.")
             continue
         if "/canonical/" in path:
@@ -450,7 +450,7 @@ def validate_technical_pr(files: list[ChangedFile]) -> list[str]:
         path = item.path
         if item.status == "D" and path in TECHNICAL_DELETABLE_ROOT_FILES:
             continue
-        if path.startswith("problems/") and not path.startswith("problems/_template/"):
+        if path.startswith("problems/") and not path.startswith("problems/_workspace-template/"):
             errors.append(f"{path}: technical PRs may not edit problem workspaces.")
             continue
         if not is_technical_allowed(path):

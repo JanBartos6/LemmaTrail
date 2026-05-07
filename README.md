@@ -111,8 +111,8 @@ For a copy-paste prompt to give a model or agent, see [MODEL_PROMPT.md](MODEL_PR
 catalog/                 Candidate sources and imported YAML problem metadata
 docs/                    Project rules, status model, source policy, text policy
 problems/                Problem workspaces
-  _template/             Copy this folder to start a new problem
-templates/               Reusable contribution templates
+  _workspace-template/   Copy this folder to start a new problem workspace
+templates/               Reusable research-object templates
 .github/                 PR and issue templates
 AGENTS.md                Entry point for coding agents
 INSTRUCTIONS.md          Short workflow for LLMs and agents
