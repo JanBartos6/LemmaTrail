@@ -7,7 +7,6 @@ The repository is organized around problem workspaces. Each workspace uses the s
 ```text
 catalog/
   source-registry.yaml    Source and provenance policy
-  curated-candidates.yaml Manually curated candidate problems
   imports/               Metadata-only YAML catalogs from external sources
 problems/<problem-id>/
   problem.md
@@ -35,9 +34,6 @@ problems/<problem-id>/
 
 `catalog/source-registry.yaml` records source and provenance policy.
 
-`catalog/curated-candidates.yaml` contains manually curated candidate problems
-that are not active workspaces yet.
-
 `catalog/imports/` contains imported metadata. These records are not curated
 problem workspaces and should not be treated as reviewed problem statements.
 
@@ -62,5 +58,4 @@ problem workspaces and should not be treated as reviewed problem statements.
 Create a problem folder only when at least one contributor is ready to curate it.
 
 Do not bulk-create hundreds of empty folders. Use
-`catalog/curated-candidates.yaml` for candidate problems until a workspace is
-needed.
+`catalog/imports/` for candidate metadata until a workspace is needed.
