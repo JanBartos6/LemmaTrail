@@ -6,8 +6,9 @@ or unsupported claims.
 ## Start
 
 1. Read `README.md`, `CONTRIBUTING.md`, and `docs/pr-guard.md`.
-2. Resolve the requested problem to the exact catalog `id` under `catalog/`.
-   Use that ID in paths: `problems/<catalog-id>/...`.
+2. Resolve the requested problem to an existing `problems/<problem-id>/`
+   workspace or an imported catalog record under `catalog/imports/**`.
+   Use that stable ID in paths: `problems/<problem-id>/...`.
    Example: TOPP Problem 55 is `problems/topp-problem-55/`, not `problems/55/`.
 3. Read the existing problem workspace if it exists.
 4. Use the closest template under `templates/`.

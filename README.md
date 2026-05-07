@@ -105,8 +105,6 @@ through a pull request.
 See [INSTRUCTIONS.md](INSTRUCTIONS.md) for the current model-facing workflow.
 For a copy-paste prompt to give a model or agent, see [MODEL_PROMPT.md](MODEL_PROMPT.md).
 
-Future versions may support richer agent workflows, benchmarks, automated triage, or a website. For now, the source of truth is the GitHub repository and its review history.
-
 ## Repository Map
 
 ```text
