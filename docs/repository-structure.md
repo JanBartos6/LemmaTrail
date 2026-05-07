@@ -6,6 +6,8 @@ The repository is organized around problem workspaces. Each workspace uses the s
 
 ```text
 catalog/
+  source-registry.yaml    Source and provenance policy
+  curated-candidates.yaml Manually curated candidate problems
   imports/               Metadata-only YAML catalogs from external sources
 problems/<problem-id>/
   problem.md
@@ -31,8 +33,13 @@ problems/<problem-id>/
 
 `problem.md` is the concise problem statement, scope, source trail, and status.
 
-`catalog/imports/` contains seed metadata. These records are not curated problem
-workspaces and should not be treated as reviewed problem statements.
+`catalog/source-registry.yaml` records source and provenance policy.
+
+`catalog/curated-candidates.yaml` contains manually curated candidate problems
+that are not active workspaces yet.
+
+`catalog/imports/` contains imported metadata. These records are not curated
+problem workspaces and should not be treated as reviewed problem statements.
 
 `glossary.md` defines local notation. Avoid redefining notation inside claims unless the claim needs local temporary notation.
 
@@ -54,4 +61,6 @@ workspaces and should not be treated as reviewed problem statements.
 
 Create a problem folder only when at least one contributor is ready to curate it.
 
-Do not bulk-create hundreds of empty folders. Use `catalog/seed-problems.yaml` for candidate problems until a workspace is needed.
+Do not bulk-create hundreds of empty folders. Use
+`catalog/curated-candidates.yaml` for candidate problems until a workspace is
+needed.

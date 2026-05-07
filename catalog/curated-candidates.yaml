@@ -1,4 +1,4 @@
-seed_problems:
+curated_candidates:
   - id: birch-swinnerton-dyer-conjecture
     title: Birch and Swinnerton-Dyer Conjecture
     area: number-theory
@@ -58,4 +58,3 @@ seed_problems:
     area: algebraic-geometry
     source_ids: [wikipedia-unsolved-math]
     workspace_status: candidate-needs-sources
-
