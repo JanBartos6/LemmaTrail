@@ -1,4 +1,7 @@
+#
+# Copy this file as problems/<problem-id>/graph.yaml.
+# Replace TEMPLATE with the stable problem ID.
+#
 problem_id: TEMPLATE
 nodes: []
 edges: []
-
