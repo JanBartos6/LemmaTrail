@@ -8,7 +8,7 @@ The repository is organized around problem workspaces. Each workspace uses the s
 catalog/
   imports/               Metadata-only YAML catalogs from external sources
 problems/
-  _workspace-template/   Skeleton for new problem workspaces
+  _workspace-template/   Readable skeleton for new problem workspaces
   <problem-id>/
     problem.md
     glossary.md
@@ -37,8 +37,8 @@ templates/               Reusable research-object templates
 `catalog/imports/` contains imported metadata. These records are not curated
 problem workspaces and should not be treated as reviewed problem statements.
 
-`problems/_workspace-template/` is copied to start a new active problem
-workspace.
+`problems/_workspace-template/` is a readable skeleton copied to start a new
+active problem workspace.
 
 `templates/` contains reusable templates for individual research objects such
 as claims, routes, attempts, failures, and reviews.

@@ -1,3 +1,15 @@
+# Problem File Template
+
+Copy this file as:
+
+```text
+problems/<problem-id>/problem.md
+```
+
+Then replace every placeholder with the actual problem metadata and concise
+source-backed statement.
+
+```markdown
 ---
 id: TEMPLATE
 title: Template Problem
@@ -45,3 +57,4 @@ State what belongs in this workspace and what does not.
 
 Keep this short. Detailed work belongs in claims, routes, attempts, failures,
 reviews, or tasks.
+```
