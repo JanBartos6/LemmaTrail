@@ -6,7 +6,6 @@ The repository is organized around problem workspaces. Each workspace uses the s
 
 ```text
 catalog/
-  source-registry.yaml    Source and provenance policy
   imports/               Metadata-only YAML catalogs from external sources
 problems/<problem-id>/
   problem.md
@@ -31,8 +30,6 @@ problems/<problem-id>/
 ## Files
 
 `problem.md` is the concise problem statement, scope, source trail, and status.
-
-`catalog/source-registry.yaml` records source and provenance policy.
 
 `catalog/imports/` contains imported metadata. These records are not curated
 problem workspaces and should not be treated as reviewed problem statements.

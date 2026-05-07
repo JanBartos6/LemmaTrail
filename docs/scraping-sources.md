@@ -145,4 +145,4 @@ Before adding an adapter:
 - [ ] Identify whether pages are stable enough to cite.
 - [ ] Decide which fields are allowed.
 - [ ] Confirm that the adapter produces metadata only.
-- [ ] Add the source to `catalog/source-registry.yaml`.
+- [ ] Document source, license, and import notes in the import directory README.
