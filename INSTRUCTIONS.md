@@ -11,7 +11,8 @@ or unsupported claims.
    Use that stable ID in paths: `problems/<problem-id>/...`.
    Example: TOPP Problem 55 is `problems/topp-problem-55/`, not `problems/55/`.
 3. Read the existing problem workspace if it exists.
-4. Use the closest template under `templates/`.
+4. If starting a new workspace, use `problems/_workspace-template/`.
+   Otherwise use the closest research-object template under `templates/`.
 
 ## Scope
 

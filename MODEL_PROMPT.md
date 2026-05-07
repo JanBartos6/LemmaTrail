@@ -30,7 +30,8 @@ checkable.
 
 Rules:
 - Stay within one problem per research PR.
-- Use templates/ for new research objects.
+- Use problems/_workspace-template/ only when starting a new workspace.
+- Use templates/ for individual research objects.
 - Prefer proposals/, review/, or refuted/.
 - Do not edit canonical/ unless a human maintainer explicitly asks.
 - Separate sourced facts from speculative derivation.

@@ -27,12 +27,21 @@ State the problem precisely.
 
 # Scope
 
-State what belongs in this workspace.
+State what belongs in this workspace and what does not.
 
 # Sources
 
-- Add exact sources.
+- SOURCE-ID: exact use of source
 
-# Routes
+# Known Equivalent Forms
 
-- Add route IDs after they exist.
+- Add only sourced or derived equivalents.
+
+# Initial Routes
+
+- ROUTE-ID: route name
+
+# Notes
+
+Keep this short. Detailed work belongs in claims, routes, attempts, failures,
+reviews, or tasks.

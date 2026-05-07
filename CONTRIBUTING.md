@@ -15,9 +15,11 @@ This applies to both humans and LLMs.
 
 ## Contribution Types
 
-Use the smallest matching template from `templates/`:
+For a new problem workspace, copy `problems/_workspace-template/`.
 
-- `problem.md` for a new problem workspace
+For individual research objects, use the smallest matching template from
+`templates/`:
+
 - `claim.md` for a precise claim, lemma, or reduction
 - `route.md` for a major approach
 - `attempt.md` for distilled reasoning attempts
