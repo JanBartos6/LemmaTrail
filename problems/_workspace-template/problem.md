@@ -1,8 +1,8 @@
 ---
-id: PROBLEM-ID
-title: Problem Title
+id: TEMPLATE
+title: Template Problem
 status: proposed
-area: area-name
+area: unknown
 source_ids: []
 authors:
   - name: unknown
@@ -43,4 +43,5 @@ State what belongs in this workspace and what does not.
 
 # Notes
 
-Keep this short. Detailed work belongs in claims, routes, attempts, failures, or tasks.
+Keep this short. Detailed work belongs in claims, routes, attempts, failures,
+reviews, or tasks.

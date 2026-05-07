@@ -21,6 +21,8 @@ from typing import Any
 TECHNICAL_LABELS = {"type: technical", "technical"}
 RESEARCH_LABELS = {"type: research", "research"}
 OVERRIDE_LABELS = {"maintainer-override", "pr-guard: override"}
+WORKSPACE_TEMPLATE_PREFIX = "problems/_workspace-template/"
+OLD_WORKSPACE_TEMPLATE_PREFIX = "problems/_template/"
 
 ALLOWED_STATUSES = {
     "idea",
@@ -66,7 +68,7 @@ TECHNICAL_ALLOWED_PREFIXES = (
     "docs/",
     "templates/",
     "tools/",
-    "problems/_template/",
+    WORKSPACE_TEMPLATE_PREFIX,
 )
 
 BLOCKED_BINARY_EXTENSIONS = {
@@ -412,7 +414,7 @@ def validate_research_pr(files: list[ChangedFile], revision: str) -> list[str]:
     object_paths: list[str] = []
     for item in files:
         path = item.path
-        if path.startswith("problems/_template/"):
+        if path.startswith(WORKSPACE_TEMPLATE_PREFIX):
             errors.append(f"{path}: template changes belong in a technical PR.")
             continue
         if "/canonical/" in path:
@@ -450,7 +452,9 @@ def validate_technical_pr(files: list[ChangedFile]) -> list[str]:
         path = item.path
         if item.status == "D" and path in TECHNICAL_DELETABLE_ROOT_FILES:
             continue
-        if path.startswith("problems/") and not path.startswith("problems/_template/"):
+        if item.status == "D" and path.startswith(OLD_WORKSPACE_TEMPLATE_PREFIX):
+            continue
+        if path.startswith("problems/") and not path.startswith(WORKSPACE_TEMPLATE_PREFIX):
             errors.append(f"{path}: technical PRs may not edit problem workspaces.")
             continue
         if not is_technical_allowed(path):
