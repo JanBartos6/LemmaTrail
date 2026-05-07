@@ -26,26 +26,20 @@ Reviewers protect the repository from plausible-looking noise.
 
 ## Review Labels
 
-Recommended GitHub labels:
+Use GitHub labels sparingly. The current project labels are:
 
 ```text
-type/problem
-type/claim
-type/route
-type/failure
-type/reference
-status/needs-review
-status/needs-revision
-status/refuted
-status/verified
-llm-triage/pass
-llm-triage/has-gap
-llm-triage/likely-duplicate
-human-review/requested
-human-review/approved
+research
+technical
+needs-review
+superseded
 ```
+
+Put detailed review state in review comments or research-object frontmatter,
+not in a large label taxonomy. For example, `verified`, `refuted`, and
+`needs-revision` are statuses or review outcomes, not labels maintainers need
+to create on day one.
 
 ## Reviewer Rule
 
 If the contribution cannot be independently checked from its sources or derivation, do not merge it into canonical state.
-
