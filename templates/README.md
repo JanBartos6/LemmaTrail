@@ -1,7 +1,8 @@
 # Research Object Templates
 
 These templates are for individual research objects inside an active problem
-workspace.
+workspace. Each template is written as a readable Markdown page with a copyable
+object skeleton inside a fenced code block.
 
 Use them under paths such as:
 

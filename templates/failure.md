@@ -1,3 +1,15 @@
+# Failure Template
+
+Use this for a failed route, refuted claim, obstruction, counterexample, or
+dead end that future contributors should not repeat.
+
+Copy the block below into:
+
+```text
+problems/<problem-id>/refuted/<object-id>.md
+```
+
+```markdown
 ---
 id: PROBLEM-F0001
 type: failure
@@ -28,7 +40,8 @@ State what failed.
 
 # Known Obstructions
 
-Explain the exact obstruction, counterexample, invalid inference, or hidden assumption.
+Explain the exact obstruction, counterexample, invalid inference, or hidden
+assumption.
 
 # Evidence
 
@@ -41,3 +54,4 @@ State what future attempts should avoid.
 # Next Step
 
 State the smallest useful continuation after this obstruction.
+```

@@ -1,3 +1,15 @@
+# Claim Template
+
+Use this for a precise candidate claim, lemma, reduction, equivalence, or
+checkable mathematical statement.
+
+Copy the block below into:
+
+```text
+problems/<problem-id>/proposals/claims/<object-id>.md
+```
+
+```markdown
 ---
 id: PROBLEM-C0001
 type: claim
@@ -46,3 +58,4 @@ State the exact weakness, missing proof step, or unchecked assumption.
 # Next Step
 
 State the smallest useful continuation.
+```

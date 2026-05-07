@@ -1,3 +1,15 @@
+# Review Template
+
+Use this for an LLM triage note, human review note, source check, or gap
+review. Reviews do not make a claim verified by themselves.
+
+Copy the block below into:
+
+```text
+problems/<problem-id>/review/<review-kind>/<object-id>.md
+```
+
+```markdown
 ---
 id: PROBLEM-REV0001
 type: review
@@ -39,3 +51,4 @@ Short result of the review.
 # Recommendation
 
 Use one: pass-to-human, needs-revision, likely-duplicate, has-gap, reject.
+```
