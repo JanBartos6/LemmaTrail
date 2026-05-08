@@ -44,6 +44,10 @@ credit for authors, reviewers, source-finders, and curators when practical.
 AI tools must be disclosed, but they are not credited as authors. See
 [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
+## Support
+
+You can support the project maintainer on [Ko-fi](https://ko-fi.com/janbartos6).
+
 ## Core Rule
 
 Every contribution must make the next human, reviewer, or model better positioned to continue.
