@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/lemmatrail-logo.png" alt="LemmaTrail logo" width="520">
+</p>
+
 # LemmaTrail
 
 LemmaTrail is an alpha-stage, GitHub-native framework for human and AI collaboration on hard mathematical problems.
