@@ -37,6 +37,22 @@ licensed under the MIT License. See [LICENSE.md](LICENSE.md). External sources
 and imported metadata keep their own terms; see
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
+## Prize Problems
+
+Some problems may have external prizes or rewards. LemmaTrail does not award,
+manage, divide, or guarantee eligibility for any external prize.
+
+Prize eligibility is controlled by the organization or person offering the
+prize. Contributors are responsible for checking those rules before relying on
+any prize claim.
+
+Repository credit records provenance and contribution history, but it is not a
+legal authorship or prize-sharing agreement.
+
+If a contribution develops into a serious solution attempt, contributors should
+agree separately on authorship, publication, and prize-related expectations
+before submission outside the repository.
+
 ## Credit
 
 Git history records commits, and research objects should preserve visible
