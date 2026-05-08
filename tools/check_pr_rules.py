@@ -22,6 +22,8 @@ TECHNICAL_LABELS = {"type: technical", "technical"}
 RESEARCH_LABELS = {"type: research", "research"}
 OVERRIDE_LABELS = {"maintainer-override", "pr-guard: override"}
 WORKSPACE_TEMPLATE_PREFIX = "problems/_workspace-template/"
+README_LOGO_PATH = "assets/lemmatrail-logo.png"
+ALLOWED_BINARY_ASSET_PATHS = {README_LOGO_PATH}
 
 ALLOWED_STATUSES = {
     "idea",
@@ -102,6 +104,7 @@ REVIEW_TRUE_RE = re.compile(
 
 MAX_REGULAR_FILE_BYTES = 120_000
 MAX_CATALOG_IMPORT_BYTES = 2_000_000
+MAX_BINARY_ASSET_BYTES = 1_000_000
 
 
 @dataclass
@@ -274,9 +277,15 @@ def is_research_support(path: str) -> bool:
 
 
 def is_technical_allowed(path: str) -> bool:
+    if path in ALLOWED_BINARY_ASSET_PATHS:
+        return True
     if path in TECHNICAL_ALLOWED_ROOT_FILES:
         return True
     return path.startswith(TECHNICAL_ALLOWED_PREFIXES)
+
+
+def is_allowed_binary_asset_path(path: str) -> bool:
+    return path in ALLOWED_BINARY_ASSET_PATHS
 
 
 def is_blocked_binary_path(path: str) -> bool:
@@ -289,6 +298,8 @@ def is_binary_content(data: bytes) -> bool:
 
 
 def max_size_for(path: str) -> int:
+    if is_allowed_binary_asset_path(path):
+        return MAX_BINARY_ASSET_BYTES
     if path.startswith("catalog/imports/") and path.endswith((".yaml", ".yml")):
         return MAX_CATALOG_IMPORT_BYTES
     return MAX_REGULAR_FILE_BYTES
@@ -370,14 +381,14 @@ def validate_global_rules(
         path = item.path
         if item.status == "D":
             continue
-        if is_blocked_binary_path(path):
+        if is_blocked_binary_path(path) and not is_allowed_binary_asset_path(path):
             errors.append(f"{path}: binary/blob file type is not allowed in PRs.")
             continue
 
         data = file_bytes_at(revision, path)
         if data is None:
             continue
-        if is_binary_content(data):
+        if is_binary_content(data) and not is_allowed_binary_asset_path(path):
             errors.append(f"{path}: binary content is not allowed in PRs.")
         max_size = max_size_for(path)
         if len(data) > max_size:
