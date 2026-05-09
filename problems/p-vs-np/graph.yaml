@@ -1,0 +1,24 @@
+problem_id: p-vs-np
+nodes:
+  - id: p-vs-np
+    type: problem
+    path: problems/p-vs-np/problem.md
+  - id: p-vs-np-c0001
+    type: claim
+    path: problems/p-vs-np/proposals/claims/p-vs-np-c0001-3-unsat-subcube-cover-encoding.md
+  - id: p-vs-np-r0001
+    type: route
+    path: problems/p-vs-np/proposals/routes/p-vs-np-r0001-subcube-cover-orientation-route.md
+  - id: p-vs-np-f0001
+    type: failure
+    path: problems/p-vs-np/refuted/p-vs-np-f0001-finite-field-degree-invariant.md
+edges:
+  - from: p-vs-np-r0001
+    to: p-vs-np-c0001
+    kind: depends_on
+  - from: p-vs-np-f0001
+    to: p-vs-np-c0001
+    kind: depends_on
+  - from: p-vs-np-f0001
+    to: p-vs-np-r0001
+    kind: route_ids
